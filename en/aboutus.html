@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="../image/x-icon" href="../assets/images/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Younes Grill & Pizza is a restaurant based in Aalborg owned by Samir Sada and his family since the early 2000s.">
+    <title>Younes Grill and Pizza | Aalborg | About us</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Handlee|Kaushan+Script|Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../assets/style/style.css">
+</head>
+
+<body>
+    <div class="pg-Top">
+        <div class="pg-Top_Logo">
+            <a href="index.html">
+                <img src="../assets/images/logo.PNG" alt="Younes Grill and Pizza Logo">
+            </a>
+        </div>
+
+        <nav> 
+            <i class="fas fa-bars pg-Top_Icon" onclick="openMenu()" class="pg-Top_Icon"></i> 
+            <a href="cart.html"><i class="fas fa-shopping-cart pg-Top_Icon"><span class="notification" style="display:none"></span></i></a>
+            
+            <div class="pg-Top_Menu pg-General-OpenSans">
+                
+                <ul id="pg-Top_MenuList">
+                    <li id="pg-Top_MenuListCart-fixing"> <i class="fas fa-times pg-Top_Icon" id="pg-Top_CloseIcon" style="display: none" onclick="closeMenu()"></i></li>
+                    <li> <a href="index.html" class="menuLink">Home</a></li>
+                    <li> <a href="menu.html" class="menuLink">Menu</a></li>
+                    <li> <a href="aboutus.html" class="menuLink">About Us</a></li>
+                    <li> <a href="../encontact.html" class="menuLink">Contact</a></li>
+                    <li> <a href="../aboutus.html"><img src="../assets/images/dk.svg" alt="Danish Flag Dansk Flag"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="pg-TopDesk">
+        <div class="pg-TopDesk_Logo">
+            <a href="index.html">
+                <img src="../assets/images/logo.PNG" alt="Younes Grill and Pizza Logo">
+            </a>
+        </div>
+
+        <nav class="pg-TopDesk_Nav">                       
+            <div class="pg-TopDesk_Menu pg-General-OpenSans">                
+                <ul class="pg-TopDesk_MenuList">                    
+                    <li> <a href="index.html" class="menuLinkDesk">Home</a></li>
+                    <li> <a href="menu.html" class="menuLinkDesk">Menu</a></li>
+                    <li> <a href="aboutus.html" class="menuLinkDesk" id="pg-General-RedColorID">About Us</a></li>
+                    <li> <a href="../encontact.html" class="menuLinkDesk">Contact</a></li>               
+                </ul>  
+
+                <a class="pg-TopDesk_Flag" href="../aboutus.html"><img src="../assets/images/dk.svg" alt="Danish Flag Dansk Flag"></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart pg-TopDesk_Icon"><span class="notificationDesk"></span></i></a> 
+            </div>           
+        </nav>
+    </div>
+
+    <div class="au-ContentContainer">
+        <h3 class="pg-General-Kaushan au-Grid_Title">About us</h3>
+
+        <h3 class="pg-General-Kaushan au-Grid_SubTitle1">Our story</h3>
+        <p class="au-Story au-Grid_Text1">
+            The story begins way back in 1985, when Samir Sada, a native of Baghdad, Irak arrived to Aalborg, Denmark with his wife and his first son. Working with his father since he was 6 years old in their own bakery, he gained enough experience in the food industry domain, so that a few years later he opened his first restaurant, located in Aalborg. 
+            
+            During the next decade, his business changed many times so that he owned a few places, all with the same background. In 2000, after having some hard times, he managed to become the owner of the old and well-known Younes Grill & Pizza, the restaurant that he is still owning since then. Located in the city center of Aalborg, his pizzeria has provided their cherished customers with the most delicious food in a cozy and family-friendly environment. The local people attributes his growth to great food, service, customers and, of course, a wonderful team of his family.
+        </p>
+        <img src="../assets/images/About_us_1.jpg" class="au-Grid_Img1" alt="Younes Grill and Pizza's boss is baking pizza and smiling">
+        <img src="../assets/images/About_us_2.jpg" class="au-Grid_Img2" alt="Younes Grill and Pizza's boss and a woman are smiling and holding pizzas">
+
+        <h3 class="pg-General-Kaushan au-Grid_SubTitle2">What is the secret of our success?</h3>
+        <p class="au-Story au-Grid_Text2">
+            We give our loyal customers what they want, provide them with great food and unmatched customer service. 
+            The restaurant offers a full menu of pizza, burgers, pasta, sandwiches and even more, all made with the freshest ingredients. Younes Grill & Pizza provides the customers with daily special offers for special prices, as well as comfortable family dining experiences.
+        </p>
+        <img src="../assets/images/About_us_3.jpg" class="au-Grid_Img3" alt="3 yummy veggie pizzas in Younes Grill and Pizza restaurant in front of the menu">
+        <img src="../assets/images/About_us_4.jpg" class="au-Grid_Img4" alt="Younes Grill and Pizza's boss is preparing a delecious pizza with vegetables">
+
+    </div>
+
+    <footer class="pg-General-OpenSans">
+        <div class="pg-Footer_SoMe">
+            <h6>Follow us</h6>
+            <a href="https://www.facebook.com/YounesGrillPizza" target="_blank"><img src="../assets/images/facebook.svg" alt="Facebook logo"></a>
+         </div>
+        
+        <div class="pg-Footer_Kontrol">
+            <h6>Kontrol rapport</h6>
+            <a href="https://www.findsmiley.dk/23488" target="_blank"><img src="../assets/images/smile.svg" alt="Kontrol Rapport icon"></a>
+         </div>    
+
+        <p id="copyright">©Younes Grill & Pizza - 2019</p>
+    </footer>
+    
+<script src="../assets/script/script.js"></script> 
+</body>
+</html>

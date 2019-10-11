@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Younes Pizza tilbyder adskillige forskellige måltider som er tilberedt friskt hver dag. Vores menu har over 100 forskellige måltider og kombinationer. Bestile online og få 5% rabat på alt mad.">
+    <title>Younes Grill og Pizza | Ålborg | Forside</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Handlee|Kaushan+Script|Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+
+    <div class="pg-Top">
+        <div class="pg-Top_Logo">
+            <a href="index.html">
+                <img src="assets/images/logo.PNG" alt="Younes Grill og Pizza Logo">
+            </a>
+        </div>
+
+        <nav> 
+            <i class="fas fa-bars pg-Top_Icon" onclick="openMenu()" class="pg-Top_Icon"></i> 
+            <a href="cart.html"><i class="fas fa-shopping-cart pg-Top_Icon"><span class="notification" style="display:none"></span></i></a>
+            
+            <div class="pg-Top_Menu pg-General-OpenSans">
+                
+                <ul id="pg-Top_MenuList">
+                    <li id="pg-Top_MenuListCart-fixing"> <i class="fas fa-times pg-Top_Icon" id="pg-Top_CloseIcon" style="display: none" onclick="closeMenu()"></i></li>
+                    <li> <a href="index.html" class="menuLink">Forside</a></li>
+                    <li> <a href="menu.html" class="menuLink">Menu</a></li>
+                    <li> <a href="aboutus.html" class="menuLink">Om os</a></li>
+                    <li> <a href="contact.html" class="menuLink">Kontakt</a></li>
+                    <li> <a href="en/index.html"><img src="assets/images/gb.svg" alt="Great Britain Flag Storbritanien Flag"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="pg-TopDesk">
+        <div class="pg-TopDesk_Logo">
+            <a href="index.html">
+                <img src="assets/images/logo.PNG" alt="Younes Grill and Pizza Logo">
+            </a>
+        </div>
+
+        <nav class="pg-TopDesk_Nav">                       
+            <div class="pg-TopDesk_Menu pg-General-OpenSans">                
+                <ul class="pg-TopDesk_MenuList">                    
+                    <li> <a href="index.html" class="menuLinkDesk" id="pg-General-RedColorID">Forside</a></li>
+                    <li> <a href="menu.html" class="menuLinkDesk">Menu</a></li>
+                    <li> <a href="aboutus.html" class="menuLinkDesk">Om os</a></li>
+                    <li> <a href="contact.html" class="menuLinkDesk">Kontakt</a></li>               
+                </ul>  
+
+                <a class="pg-TopDesk_Flag" href="en/index.html"><img src="assets/images/gb.svg" alt="Great Britain Flag Storbritanien Flag"></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart pg-TopDesk_Icon"><span class="notificationDesk"></span></i></a>
+            </div>           
+        </nav>
+    </div>
+
+    <div class="hm-GridContainer">
+        <div class="hm-Hero pg-General-Kaushan">
+            <h1 class="hm-Grid_HeroWlcm">
+                Velkommen til
+                <span class="hm-Hero_Younes">Younes</span>
+            </h1>
+
+            <div class="hm-Hero_OC">
+                <p id="hm-Hero_Open"  style="display: none">Nu åben</p>
+                <p id="hm-Hero_Closed"  style="display: none">Nu lukket</p>
+            </div>
+
+            <p class="hm-Grid_HeroIntro pg-General-OpenSans">
+                <span>Bestil <b>online med rabat</b></span><br> <span>eller ring til <b>98 12 48 11</b></span>
+            </p>
+
+            <div class="hm-Grid_HeroButton hm-Hero_ButtonContainer">
+                <button onclick="window.location.href='menu.html'" class="pg-General_CallAct-button pg-General_CallAct-button_rightFloat pg-General-OpenSans">
+                        Bestil nu
+                </button>
+            </div>
+        </div>
+        
+        <div class="hm-Quote"> 
+            <i class="fas fa-quote-right hm-Quote_Mark hm-Quote_padding hm-Grid_QuoteMark"></i>
+            <p class="hm-Quote_padding pg-General-OpenSans hm-Grid_QuoteQttn">
+                <i>Vores filosofi er simpel: så længe der er dej, vil vi lave dig den bedste pizza med de bedste ingredienser!</i>
+            </p>
+            <div class="hm-Quote_Signature hm-Grid_QuoteSign">
+                <img class="hm-Quote_padding" src="assets/images/signature.svg" alt="Younes Grill and Pizza Chef Underskrift">
+            </div>
+        </div>
+        
+        <div class="hm-DailyOffer pg-General-GreyColor pg-General-OpenSans">
+            <h3 class="pg-General-Kaushan hm-Grid_DailyOfferTitle">Ugens Tilbud</h3>
+            
+            <div class="Sunday offer" style="display: none">
+                <h1 class="pg-General-RedColor hm-Grid_DailyOfferDay"><span>-</span> Søndag tilbud <span>-</span></h1>
+                <img class="hm-Grid_DailyOfferImg" src="assets/images/lasagne.jpg" alt="Lasagne med kødsauce, bacon, kylling og salat">
+                <div class="pg-General-RedColor hm-DailyOffer_Name"><h4>Lasagne</h4></div>
+                <div class="hm-DailyOffer_Price"><p>DKK 49</p></div>
+                <div class="hm-DailyOffer_Ing"><p>med kødsauce, bacon, kylling og salat</p></div>
+            </div>
+            <div class="Monday offer"  style="display: none">
+                <h1 class="pg-General-RedColor hm-Grid_DailyOfferDay"><span>-</span> Mandag tilbud <span>-</span></h1>
+                <img class="hm-Grid_DailyOfferImg" src="assets/images/halfchicken.jpg" alt="1/2 Kylling med pommes frites, salat og dressing">
+                <div class="pg-General-RedColor hm-DailyOffer_Name"><h4>1/2 Kylling</h4></div>
+                <div class="hm-DailyOffer_Price"><p>DKK 49</p></div>
+                <div class="hm-DailyOffer_Ing"><p>med pommes frites, salat og dressing</p></div>
+            </div>
+            <div class="Tuesday offer"  style="display: none">
+                <h1 class="pg-General-RedColor hm-Grid_DailyOfferDay"><span>-</span> Tirsdag tilbud <span>-</span></h1>
+                <img class="hm-Grid_DailyOfferImg" src="assets/images/chickenwings.jpg" alt="Chicken wings med pommes frites, salat og dressing">
+                <div class="pg-General-RedColor hm-DailyOffer_Name"><h4>Chicken wings, 4stk.</h4></div>
+                <div class="hm-DailyOffer_Price"><p>DKK 49</p></div>
+                <div class="hm-DailyOffer_Ing"><p>med pommes frites, salat og dressing</p></div>
+            </div>
+            <div class="Wednesday offer"  style="display: none">
+                <h1 class="pg-General-RedColor hm-Grid_DailyOfferDay"><span>-</span> Onsdag tilbud <span>-</span></h1>
+                <img class="hm-Grid_DailyOfferImg" src="assets/images/kebabsandwich.jpg" alt="Kebab sandwich marineret oksefilet i sandwich med pommes frites">
+                <div class="pg-General-RedColor hm-DailyOffer_Name"><h4>Kebab sandwich</h4></div>
+                <div class="hm-DailyOffer_Price"><p>DKK 49</p></div>
+                <div class="hm-DailyOffer_Ing"><p>marineret oksefilet i sandwich med pommes frites</p></div>
+            </div>
+            <div class="Thursday offer"  style="display: none">
+                <h1 class="pg-General-RedColor hm-Grid_DailyOfferDay"><span>-</span> Torsdag tilbud <span>-</span></h1>
+                <img class="hm-Grid_DailyOfferImg" src="assets/images/ham-schnitzel.jpg" alt="Skinkeschnitzel med pommes frites, salat og dressing">
+                <div class="pg-General-RedColor hm-DailyOffer_Name"><h4>Skinkeschnitzel</h4></div>
+                <div class="hm-DailyOffer_Price"><p>DKK 49</p></div>
+                <div class="hm-DailyOffer_Ing"><p>med pommes frites, salat og dressing</p></div>
+            </div>
+            <div class="Friday offer"  style="display: none">
+                <h1 class="pg-General-RedColor hm-Grid_DailyOfferDay"><span>-</span> Fredag tilbud <span>-</span></h1>
+                <img class="hm-Grid_DailyOfferImg" src="assets/images/burger.jpg" alt="Hjemmelavet burger med salat, agurk, løg og dressing">
+                <div class="pg-General-RedColor hm-DailyOffer_Name"><h4>Hjemmelavet burger</h4></div>
+                <div class="hm-DailyOffer_Price"><p>DKK 49</p></div>
+                <div class="hm-DailyOffer_Ing"><p>med salat, agurk, løg og dressing</p></div>
+            </div>
+            <div class="Saturday offer" style="display: none">
+                <h1 class="pg-General-RedColor hm-Grid_DailyOfferDay"><span>-</span> Lørdag tilbud <span>-</span></h1>
+                <img class="hm-Grid_DailyOfferImg" src="assets/images/stjerneskud.jpg" alt="Stjerneskud luksus">
+                <div class="pg-General-RedColor hm-DailyOffer_Name"><h4>Stjerneskud</h4></div>
+                <div class="hm-DailyOffer_Price"><p>DKK 49</p></div>
+                <div class="hm-DailyOffer_Ing"><p>luksus</p></div>
+            </div>
+            
+            <div class="hm-DailyOffer_Button">
+                <button onclick="window.location.href='dailyoffer.html'" class="pg-General_CallAct-button pg-General_CallAct-button_rightFloat hm-DailyOfferButton_Font" id="hm-DailyOfferButton-Desk">Se hele ugen</button>
+            </div>
+        </div>
+
+        <div class="hm-Reviews pg-General-OpenSans">
+            <h3 class="pg-General-Kaushan hm-Grid_ReviewsTitle">Vores glade gæster</h3>
+            <i class="fas fa-quote-right hm-Quote_Mark hm-Quote_padding" id="hm-Reviews_Mark"></i>
+            <i class="fas fa-chevron-left hm-Reviews_ArrowLeft" onclick="previousReview()"></i>
+            <p class="hm-Grid_ReviewsText"><i>Aalborg's absolut bedste pizzaria! Nå jeg er i Aalborg og har lyst til pizza, så er det der! Søde søde fyre og god service! Så tak for det!</i>
+            </p>
+            <i class="fas fa-chevron-right hm-Reviews_ArrowRight" onclick="nextReview()"></i>
+        </div>
+    </div>  
+
+    <footer class="pg-General-OpenSans">
+        <div class="pg-Footer_SoMe">
+            <h6>Følg os</h6>
+            <a href="https://www.facebook.com/YounesGrillPizza" target="_blank"><img src="assets/images/facebook.svg" alt="Facebook logo"></a>
+        </div>
+        
+        <div class="pg-Footer_Kontrol">
+            <h6>Kontrol rapport</h6>
+            <a href="https://www.findsmiley.dk/23488" target="_blank"><img src="assets/images/smile.svg" alt="Kontrol Rapport icon"></a>
+        </div>    
+
+        <p id="copyright">©Younes Grill & Pizza - 2019</p>
+    </footer>
+
+<script src="assets/script/script.js"></script>
+<script src="assets/script/dailyoffer.js"></script>
+<script src="assets/script/reviews.js"></script>
+<script> dailyOffer(); openingHrs();</script>
+</body>
+
+</html>

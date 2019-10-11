@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Se indkøbsvogn, vælg betalingsmetode og bestil din ordre.">
+    <title>Younes Grill og Pizza | Ålborg | Din indkøbskvurv</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Handlee|Kaushan+Script|Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <div class="pg-Top">
+        <div class="pg-Top_Logo">
+            <a href="index.html">
+                <img src="assets/images/logo.PNG" alt="Younes Grill og Pizza Logo">
+            </a>
+        </div>
+
+        <nav> 
+            <i class="fas fa-bars pg-Top_Icon" onclick="openMenu()" class="pg-Top_Icon"></i> 
+            <a href="cart.html"><i class="fas fa-shopping-cart pg-Top_Icon"><span class="notification"></span></i></a>
+            
+            <div class="pg-Top_Menu pg-General-OpenSans">
+                
+                <ul id="pg-Top_MenuList">
+                    <li id="pg-Top_MenuListCart-fixing"> <i class="fas fa-times pg-Top_Icon" style="display: none" onclick="closeMenu()"></i></li>
+                    <li> <a href="index.html" class="menuLink">Forside</a></li>
+                    <li> <a href="menu.html" class="menuLink">Menu</a></li>
+                    <li> <a href="aboutus.html" class="menuLink">Om os</a></li>
+                    <li> <a href="contact.html" class="menuLink">Kontakt</a></li>
+                    <li> <a href="en/cart.html"><img src="assets/images/gb.svg" alt="Great Britain Flag Storbritanien Flag"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="pg-TopDesk">
+        <div class="pg-TopDesk_Logo">
+            <a href="index.html">
+                <img src="assets/images/logo.PNG" alt="Younes Grill og Pizza Logo">
+            </a>
+        </div>
+
+        <nav class="pg-TopDesk_Nav">                       
+            <div class="pg-TopDesk_Menu pg-General-OpenSans">                
+                <ul class="pg-TopDesk_MenuList">                    
+                    <li> <a href="index.html" class="menuLinkDesk">Forside</a></li>
+                    <li> <a href="menu.html" class="menuLinkDesk">Menu</a></li>
+                    <li> <a href="aboutus.html" class="menuLinkDesk">Om os</a></li>
+                    <li> <a href="contact.html" class="menuLinkDesk">Kontakt</a></li>               
+                </ul>  
+
+                <a class="pg-TopDesk_Flag" href="en/cart.html"><img src="assets/images/gb.svg" alt="Great Britain Flag Storbritanien Flag"></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart pg-TopDesk_Icon"><span class="notificationDesk"></span></i></a> 
+            </div>           
+        </nav>
+    </div>
+    
+    <div class="crt-ContentContainer pg-General-OpenSans">
+        <h3 class="pg-General-Kaushan crt-Grid_Title">Din indkøbskvurv</h3>
+
+        <div class="cart"></div>        
+        <p class="crt-Bill_Discount"><b>-5% rabat på alt mad!</b></p>
+
+        <hr class="crt-Grid_Underline">
+
+        <div class="crt-Price">
+            <p class="crt-Bill_Total">Total:</p> 
+            <p class="crt-Bill_TotalPrice"></p>
+        </div>
+
+        <div class="crt-Buttons">
+            <button class="pg-General_CallAct-button crt-Grid_ClearBtn" id="crt-Bill_ClearBtn" onclick="clearStorage()">Ryd alle</button>
+            <button class="pg-General_CallAct-button crt-Grid_PayBtn" id="crt-Bill_PayBtn" onclick="ChooseGetting()">Betal</button>
+            
+            <div class="crt-Buttons_ChooseGetting crt-Buttons-hide">
+                <button class="crt-PickUpBtn crt-nonactiveBtn" onclick="PayingMethPU()">Hente selv</button>
+                <button class="crt-DeliveryBtn crt-nonactiveBtn" onclick="PayingMethD()">Udbringning</button>
+            </div>
+
+            <div class="crt-Button_PayingMethPU crt-Buttons-hide">
+                <button onclick="PayingPU()" class="crt-nonactiveBtn crt-PUNow">Betal nu</button>
+                <button onclick="TextPU()" class="crt-nonactiveBtn crt-PULater">Betal ved levering</button>
+            </div>
+
+            <div class="crt-Button_PayingMethD crt-Buttons-hide">
+                <button onclick="PayingD()" class="crt-nonactiveBtn crt-DNow">Betal nu</button> 
+                <button onclick="TextD()" class="crt-nonactiveBtn crt-DLater">Betal ved udbringning</button>
+            </div>
+
+            <div class="crt-Button_Paying crt-Buttons-hide">
+                <button class="crt-MobilePayBtn crt-nonactiveBtn" onclick="MobilePay()">Mobile Pay</button> 
+                <button class="crt-CreditCardBtn crt-nonactiveBtn" onclick="CreditCard()">Credit Card</button>
+                
+                <div class="crt-MobilePayForm">
+                    <p>Scan the QR code with the MobilePay App and finish your order</p>
+                    <img src="assets/images/COLOURBOX13924154.jpg">
+                </div>
+    
+                <div class="crt-CreditCardForm">
+                    <form>
+                        <input type="text" name="name" placeholder="Name on the card">
+
+                        <input type="number" name="month" placeholder="mm" min="01" max="12" minlength="2" maxlength="2" oninput="checklenght(this)">
+
+                        <span>/</span>
+
+                        <input type="number" name="year" placeholder="yy" minlength="2" maxlength="2" oninput="checklenght(this)">
+
+                        <input type="number" name="cvv" placeholder="CVV" minlength="2" maxlength="3" oninput="checklenght(this)">
+
+                        <input type="number" name="number" placeholder="Card number" minlength="15" maxlength="16" oninput="checklenght(this)">
+
+                        <button id="crt-OrderNowBtn" class="crt-nonactiveBtn" onclick="alert('Thank You for your order! The payment was successful')">Order</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="crt-Button_Text crt-Buttons-hide">
+                <p>Click on the button and finihs your order.</p>
+
+                <button id="crt-OrderNowBtn" class="crt-nonactiveBtn" onclick="alert('Thank You for your order! The payment was successful')">Order</button>
+            </div>
+        </div>
+    </div>  
+
+    <footer class="pg-General-OpenSans crt-Footer">
+        <div class="pg-Footer_SoMe">
+            <h6>Følg os</h6>
+            <a href="https://www.facebook.com/YounesGrillPizza" target="_blank"><img src="assets/images/facebook.svg" alt="Facebook logo"></a>
+        </div>
+        
+        <div class="pg-Footer_Kontrol">
+            <h6>Kontrol rapport</h6>
+            <a href="https://www.findsmiley.dk/23488" target="_blank"><img src="assets/images/smile.svg" alt="Kontrol Rapport icon"></a>
+       </div>    
+
+        <p id="copyright">©Younes Grill & Pizza - 2019</p>
+    </footer>
+    
+<script src="assets/script/products.js"></script>
+<script src="assets/script/cart.js"></script>  
+<script src="assets/script/script.js"></script> 
+<script>cart();</script>
+</body>
+</html>

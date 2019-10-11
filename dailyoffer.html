@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tjek vores daglige rabatter og besøg os ved Younes Grill and Pizzeria">
+    <title>Younes Grill og Pizza | Ålborg | Ugens Tilbud</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Handlee|Kaushan+Script|Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <div class="pg-Top">
+        <div class="pg-Top_Logo">
+            <a href="index.html">
+                <img src="assets/images/logo.PNG" alt="Younes Grill og Pizza Logo">
+            </a>
+        </div>
+
+        <nav> 
+            <i class="fas fa-bars pg-Top_Icon" onclick="openMenu()" class="pg-Top_Icon"></i> 
+            <a href="cart.html"><i class="fas fa-shopping-cart pg-Top_Icon"><span class="notification" style="display:none"></span></i></a>
+            
+            <div class="pg-Top_Menu pg-General-OpenSans">
+                
+                <ul id="pg-Top_MenuList">
+                    <li id="pg-Top_MenuListCart-fixing"> <i class="fas fa-times pg-Top_Icon" id="pg-Top_CloseIcon" style="display: none" onclick="closeMenu()"></i></li>
+                    <li> <a href="index.html" class="menuLink">Forside</a></li>
+                    <li> <a href="menu.html" class="menuLink">Menu</a></li>
+                    <li> <a href="aboutus.html" class="menuLink">Om os</a></li>
+                    <li> <a href="contact.html" class="menuLink">Kontakt</a></li>
+                    <li> <a href="en/dailyoffer.html"><img src="assets/images/gb.svg" alt="Great Britain Flag Storbritanien Flag"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="pg-TopDesk">
+        <div class="pg-TopDesk_Logo">
+            <a href="index.html">
+                <img src="assets/images/logo.PNG" alt="Younes Grill og Pizza Logo">
+            </a>
+        </div>
+
+        <nav class="pg-TopDesk_Nav">                       
+            <div class="pg-TopDesk_Menu pg-General-OpenSans">                
+                <ul class="pg-TopDesk_MenuList">                    
+                    <li> <a href="index.html" class="menuLinkDesk">Forside</a></li>
+                    <li> <a href="menu.html" class="menuLinkDesk">Menu</a></li>
+                    <li> <a href="aboutus.html" class="menuLinkDesk">Om os</a></li>
+                    <li> <a href="contact.html" class="menuLinkDesk">Kontakt</a></li>               
+                </ul>  
+
+                <a class="pg-TopDesk_Flag" href="en/dailyoffer.html"><img src="assets/images/gb.svg" alt="Great Britain Flag Storbritanien Flag"></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart pg-TopDesk_Icon"><span class="notificationDesk"></span></i></a>
+            </div>           
+        </nav>
+    </div>
+
+    <a href="index.html"><i class="fas fa-arrow-left" id="df_Arrow"></i></a>
+
+    <div class="df-DailyOffer pg-General-GreyColor pg-General-OpenSans">
+        <h3 class="pg-General-Kaushan df-Grid_Title">Ugens Tilbud</h3>
+        
+        <div class="df-Days-Padding  df-Grid_Monday">
+            <h1 class="pg-General-RedColor df-Grid_MoDay">Mandag tilbud</h1>
+            <img class="df-Grid_MoImg" src="assets/images/halfchicken.jpg" alt="1/2 Kylling med pommes frites, salat og dressing">
+            <div class="pg-General-RedColor hm-DailyOffer_Name df-Grid_MoName"><h4>1/2 Kylling</h4></div>
+            <div class="hm-DailyOffer_Price df-Grid_MoPrice"><p>DKK 49</p></div>
+            <div class="hm-DailyOffer_Ing df-Grid_MoIng"><p>med pommes frites, salat og dressing</p></div>
+        </div>
+        <div class="df-Days-Padding  df-Grid_Tuesday">
+            <h1 class="pg-General-RedColor df-Grid_TuDay">Tirsdag tilbud</h1>
+            <img class="df-Grid_TuImg" src="assets/images/chickenwings.jpg" alt="Chicken wings med pommes frites, salat og dressing">
+            <div class="pg-General-RedColor hm-DailyOffer_Name df-Grid_TuName"><h4>Chicken wings, 4stk.</h4></div>
+            <div class="hm-DailyOffer_Price df-Grid_TuPrice"><p>DKK 49</p></div>
+            <div class="hm-DailyOffer_Ing df-Grid_TuIng"><p>med pommes frites, salat og dressing</p></div>
+        </div>
+        <div class="df-Days-Padding  df-Grid_Wednesday">
+            <h1 class="pg-General-RedColor df-Grid_WeDay">Onsdag tilbud</h1>
+            <img class="df-Grid_WeImg" src="assets/images/kebabsandwich.jpg" alt="Kebab sandwich marineret oksefilet i sandwich med pommes frites">
+            <div class="pg-General-RedColor hm-DailyOffer_Name df-Grid_WeName"><h4>Kebab sandwich</h4></div>
+            <div class="hm-DailyOffer_Price df-Grid_WePrice"><p>DKK 49</p></div>
+            <div class="hm-DailyOffer_Ing df-Grid_WeIng"><p>marineret oksefilet i sandwich med pommes frites</p></div>
+        </div>
+        <div class="df-Days-Padding  df-Grid_Thursday">
+            <h1 class="pg-General-RedColor df-Grid_ThDay">Torsdag tilbud</h1>
+            <img class="df-Grid_ThImg" src="assets/images/ham-schnitzel.jpg" alt="Skinkeschnitzel med pommes frites, salat og dressing">
+            <div class="pg-General-RedColor hm-DailyOffer_Name df-Grid_ThName"><h4>Skinkeschnitzel</h4></div>
+            <div class="hm-DailyOffer_Price df-Grid_ThPrice"><p>DKK 49</p></div>
+            <div class="hm-DailyOffer_Ing df-Grid_ThIng"><p>med pommes frites, salat og dressing</p></div>
+        </div>
+        <div class="df-Days-Padding  df-Grid_Friday">
+            <h1 class="pg-General-RedColor df-Grid_FrDay">Fredag tilbud</h1>
+            <img class="df-Grid_FrImg" src="assets/images/burger.jpg" alt="Hjemmelavet burger med salat, agurk, løg og dressing">
+            <div class="pg-General-RedColor hm-DailyOffer_Name df-Grid_FrName"><h4>Hjemmelavet burger</h4></div>
+            <div class="hm-DailyOffer_Price df-Grid_FrPrice"><p>DKK 49</p></div>
+            <div class="hm-DailyOffer_Ing df-Grid_FrIng"><p>med salat, agurk, løg og dressing</p></div>
+        </div>
+        <div class="df-Days-Padding  df-Grid_Saturday">
+            <h1 class="pg-General-RedColor df-Grid_SaDay">Lørdag tilbud</h1>
+            <img class="df-Grid_SaImg" src="assets/images/stjerneskud.jpg" alt="Stjerneskud luksus">
+            <div class="pg-General-RedColor hm-DailyOffer_Name df-Grid_SaName"><h4>Stjerneskud</h4></div>
+            <div class="hm-DailyOffer_Price df-Grid_SaPrice"><p>DKK 49</p></div>
+            <div class="hm-DailyOffer_Ing df-Grid_SaIng"><p>luksus</p></div>
+        </div>
+        <div class="df-Days-Padding  df-Grid_Sunday">
+            <h1 class="pg-General-RedColor df-Grid_SuDay">Søndag tilbud</h1>
+            <img class="df-Grid_SuImg" src="assets/images/lasagne.jpg" alt="Lasagne med kødsauce, bacon, kylling og salat">
+            <div class="pg-General-RedColor hm-DailyOffer_Name df-Grid_SuName"><h4>Lasagne</h4></div>
+            <div class="hm-DailyOffer_Price df-Grid_SuPrice"><p>DKK 49</p></div>
+            <div class="hm-DailyOffer_Ing df-Grid_SuIng"><p>med kødsauce, bacon, kylling og salat</p></div>
+        </div>
+        <div class="df-Days-Padding  df-Grid_Paragraph">
+            <div class="hm-DailyOffer_Ing df-Grid_ParagraphText"><p>Please note, that the daily offers are not possible to be ordered online.</p></div>
+        </div>
+    </div>
+
+    <footer class="pg-General-OpenSans">
+        <div class="pg-Footer_SoMe">
+            <h6>Follow us</h6>
+            <a href="https://www.facebook.com/YounesGrillPizza" target="_blank"><img src="assets/images/facebook.svg" alt="Facebook logo"></a>
+        </div>
+        
+        <div class="pg-Footer_Kontrol">
+            <h6>Kontrol rapport</h6>
+            <a href="https://www.findsmiley.dk/23488" target="_blank"><img src="assets/images/smile.svg" alt="Kontrol Rapport icon"></a>
+        </div>    
+
+        <p id="copyright">©Younes Grill & Pizza - 2019</p>
+    </footer>
+
+<script src="assets/script/script.js"></script>
+</body>
+
+</html>

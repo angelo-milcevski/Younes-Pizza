@@ -1,0 +1,5670 @@
+body {
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+
+            /*GENERAL*/
+
+.pg-General-Kaushan{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.pg-General-OpenSans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pg-General-RedColor{
+    color: #A81B15;
+}
+
+#pg-General-RedColorID{
+    color: #A81B15;
+}
+
+.pg-General-GreyColor{
+    color: #707070;
+}
+
+.pg-General_CallAct-button{
+    color: #FFA000;
+    background-color: white;
+    border: solid 0.4vw #FFA000;
+    border-radius: 2px;
+    padding: 2vw;
+    width: 35vw;
+    font-size: 3vw;
+    box-shadow: 1.6px 1.6px 4px #9e9a9a;
+    font-weight: normal;
+}
+
+.pg-General_CallAct-button a{
+    color: #FFA000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pg-General-bold{
+    font-weight: bold;
+}
+
+
+
+            /*MOBILE NAVIGATION*/
+
+.pg-TopDesk{
+    display: none;
+}
+
+.pg-Top{
+    background-color: white;
+    display: block;
+    padding: 2vw 0 0 0;
+    height: 13vw;
+    width: 100%;
+    margin: 0;
+    box-shadow: 0px 5px 8px #9e9a9a;
+    z-index: 1;
+    position: relative;
+}
+
+.pg-Top_Logo{
+    display: inline-block;
+    width: 42vw;
+    margin: 0;
+    padding: 0 0 0 3.8vw;
+    float: left;
+}
+
+.pg-Top_Logo img{
+    width: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: inline-block;
+    width: 50%;
+    float: right;
+    padding: 0 3.8vw 0 0 ;
+}
+
+.pg-Top_Icon {
+    cursor: pointer;
+    font-size: 7vw;
+    float: right;
+    margin: 2vw 0 0 7vw;
+    color: #686868;
+}
+
+#pg-Top_CloseIcon{
+    margin: 2vw 10vw 0 0;
+    font-size: 6vw;
+    color: #707070;
+}
+
+.pg-Top_Menu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #F8F6F6;
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+#pg-Top_MenuList{
+    padding: 0;
+    list-style: none;
+}
+
+#pg-Top_MenuList li{
+    height: 15vw;
+        
+    text-align: center;
+}
+
+#pg-Top_MenuList li a{
+    height: 15vw;
+    color: #A81B15;
+}
+
+#pg-Top_MenuList li img{
+    width: 12vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fa-times{
+    color: white;
+    font-size: 25px;
+}
+
+.notification{
+    position: absolute;
+    top: 2vw;
+    right: 15vw;
+    padding: 1.5vw 2.2vw;
+    border-radius: 50%;
+    background-color: #A81B15;
+    font-size: 3vw;
+    color: white;
+}
+
+.menuLink{        
+    color: white;
+    text-decoration: none;
+    font-size: 6vw;
+    text-align: center;
+}
+
+
+            /*HOME PAGE*/
+
+/*HERO*/
+
+.hm-Hero {
+    width: 92.4vw;
+    display: block;
+    padding: 2vw 3.8vw;
+    color: #686868;
+    margin: 0 0 0 0;
+    background-image: url("../images/heromobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.hm-Hero_Younes{
+    color: #A81B15;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 7.5vw;
+}
+
+.hm-Hero h1{
+    display: block;
+    text-align: center;
+    padding: 4.5vw 0 4.5vw 48vw;
+    margin: 0;
+    font-size: 6.2vw;
+}
+
+
+.hm-Hero_OC p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+#hm-Hero_Open{
+    color: #125f12;
+}
+
+#hm-Hero_Closed{
+    color: #7d1313;
+}
+
+.hm-Hero p{
+    display: block;
+    text-align: center;
+    padding: 0 0 4.5vw 48vw;
+    margin: 0;
+    font-size: 3vw;
+}
+
+.hm-Hero_ButtonContainer{
+    display: block;
+    text-align: center;
+    padding: 0 0 4.5vw 48vw;
+}
+
+
+/*QUOTE*/
+
+.hm-Quote{
+    width: 100%;
+    background-color: white;
+    display: block;
+}
+
+.hm-Quote_Mark{
+    margin: 4.5vw 0 6vw 0;
+    font-size: 4.8vw;
+    color: #707070;
+    display: block;
+}
+
+.hm-Quote_padding{
+    padding: 0 3.8vw;
+}
+
+.hm-Quote p{
+    margin: 0 0 0 6vw;
+    font-size: 3vw;
+    color: #707070;
+}    
+
+.hm-Quote_Signature{
+    text-align: center;
+    margin: 0 0 0 48vw;  
+}
+
+.hm-Quote img{
+    width: 12vw;
+    padding: 0;
+}
+
+
+/*DAILY OFFER*/
+
+.hm-Grid_DailyOfferDay {grid-area: day;}
+.hm-Grid_DailyOfferImg {grid-area: img;}
+.hm-DailyOffer_Name {grid-area: name;}
+.hm-DailyOffer_Price {grid-area: price;}
+.hm-DailyOffer_Ing {grid-area: ing;}
+
+.offer{
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "day day"
+    "img img"
+    "name price"
+    "ing ing"
+}
+
+.hm-DailyOffer{
+    background-color: #F8F6F6;
+    width: 100%;
+    display: block;
+    text-align: center
+}
+
+.hm-DailyOffer h3{
+    margin: 0;
+    font-weight: normal;
+    padding: 4.5vw 0 0 0;
+    font-size: 5.8vw;
+}
+
+.hm-DailyOffer span{
+    display: inline-block;
+    width: 12vw;
+}
+
+.hm-DailyOffer h1{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 5vw;
+    margin: 0;
+    padding: 2vw 0;
+}
+
+.hm-DailyOffer img{
+    padding: 0 3.8vw;
+    width: 100%;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+.hm-DailyOffer_Name{
+    text-align: left;
+    margin: 0;
+    padding: 2vw 0 2vw 3.8vw;
+    display: inline-block;
+    width: 80%;
+    float: left;
+}
+
+.hm-DailyOffer_Name h4{
+    margin: 0; 
+    padding: 0;
+    font-size: 4vw;
+    font-weight: normal;
+    width: 100%;
+}
+
+.hm-DailyOffer_Price{
+    text-align: right;
+    margin: 0;
+    padding: 2vw 3.8vw 2vw 0;
+    display: inline-block;
+}
+
+.hm-DailyOffer_Price p{
+    margin: 0;
+    padding: 0;
+    font-size: 4vw;
+    font-weight: normal;
+}
+
+.hm-DailyOfferButton_Font{
+    font-size: 3vw;
+}
+
+.hm-DailyOffer_Ing{
+    text-align: left;
+    margin: 0;
+    padding: 0 3.8vw 2vw 3.8vw;
+}
+
+.hm-DailyOffer_Ing p{
+    margin: 0;
+    padding: 0;
+    font-size: 3vw;
+    font-weight: normal;
+}
+
+.hm-DailyOffer_Button{
+    display: block;
+    text-align: right;
+    padding: 2.5vw 3.8vw 4.5vw 0vw;
+}
+
+
+/*REVIEWS*/
+
+.hm-Reviews{
+    background-color: #03010E;
+    color: #B6B6B6;
+}
+
+.hm-Reviews h3{
+    text-align: center;
+    padding: 4.5vw 0 0 0;
+    margin: 0;
+    font-size: 5.8vw;
+}
+
+.hm-Reviews p{
+    margin: 0;
+    padding: 0 1vw 4.5vw 1vw;
+    font-size: 3vw;
+    width: 85%;
+    display: inline-block;
+    min-height: 22vw;
+    max-height: 30vw;
+}
+
+.hm-Reviews_ArrowLeft{
+    display: inline-block;
+    width: 5%;
+    padding: 0 0 4.5vw 3.8vw;
+    margin: 0 2.5vw 0 0;
+    font-size: 5vw;
+}
+
+.hm-Reviews_ArrowRight{
+    display: inline-block;
+    width: 5%;
+    padding: 0 3.8vw 4.5vw 0;
+    margin: 0;
+    text-align: right;
+    font-size: 5vw;
+}
+
+#hm-Reviews_Mark{
+    margin: 2vw 0 0 3.8vw;
+    padding: 0;
+}
+
+
+            /*DAILY OFFER PAGE*/
+
+.fa-arrow-left{
+    padding: 2vw 0 0 3.8vw;
+    font-size: 5vw;
+    transition: 2s;
+    color: #707070;
+    text-align: left;
+    float: left;
+    width: 100%;
+}
+
+.df-DailyOffer{
+    background-color: white;
+    width: 100%;
+    display: block;
+    text-align: center
+}
+
+.df-DailyOffer h3{
+    margin: 0;
+    font-weight: normal;
+    padding: 4.5vw 0 0 0;
+    font-size: 5.8vw;
+}
+
+.df-DailyOffer span{
+    display: inline-block;
+    width: 12vw;
+}
+
+.df-DailyOffer h1{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 5vw;
+    margin: 0;
+    padding: 2vw 0;
+}
+
+.df-DailyOffer img{
+    padding: 0 3.8vw;
+    width: 100%;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+.df-Days-WhiteBg{
+    background-color: white
+}
+
+.df-Days-Padding{
+    padding: 4.5vw 0;
+}
+
+.df-Grid_Paragraph{
+    background-color: #ffffff;
+    color: #af2d28;
+}
+
+
+            /*MENU PAGE*/
+
+.mn-ContentContainer{
+    padding: 4.5vw 3.8vw;
+}
+
+.mn-Title{
+    font-weight: normal;
+    text-align: center;
+    font-size: 5.8vw;
+    margin: 0 0 0 0;
+    padding: 0;
+    color: #707070;
+}
+
+.mn-Content_Box{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+    height: 50vw;
+    padding: 4vw 0 8vw 0;
+    background-color: #f6f6f6e6;
+}
+
+.mn-Content_Box img{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.mn-Content_Box h2{
+    margin: 2vw 0 0 0;
+    padding: 0;
+    text-align: left;
+    background-color: white;   
+    display: block;
+    width: 60%;
+    float: left;
+    color: #A81B15;
+    font-size: 5.8vw;
+    font-weight: normal;
+}
+
+.mn-Content_Box button{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#mn-Content_SeeMoreBtn{
+    font-size: 3vw;
+    font-weight: normal;
+    padding: 1vw;
+    margin: 2vw auto 4.5vw auto;
+    float: none;
+}
+
+.orderBox {
+    border: 1px solid;
+    width: 20%;
+}
+
+.orderComment {
+    height: 80px;
+}
+
+button,
+.fas {
+    cursor: pointer;
+    color: #707070;
+}
+
+.successMsg {
+    background-color: #125f12;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 7px 5px -1px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 5px 7px 5px -1px rgba(0, 0, 0, 0.20);
+    box-shadow: 5px 7px 5px -1px rgba(0, 0, 0, 0.20);
+    animation-duration: 0.1s;
+    transform: translateY(-200px);
+}
+
+.errorMsg {
+    background-color: #7d1313;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 7px 5px -1px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 5px 7px 5px -1px rgba(0, 0, 0, 0.20);
+    box-shadow: 5px 7px 5px -1px rgba(0, 0, 0, 0.20);
+    animation-duration: 0.1s;
+    transform: translateY(-200px);
+}
+
+.successMsg,
+.errorMsg p {
+    color: white;
+    text-align: center;
+}
+
+.foodSelector {
+    float: left;
+}
+
+.PizzaBtn{
+    color: #A81B15;
+    background-color: white;
+    border: solid 0.7vw #A81B15;
+    width: 40%;
+    display: inline-block;
+    padding: 1vw;
+    font-size: 3vw;
+    font-family: 'Open Sans', sans-serif;
+    margin: 3.5vw 0;
+    border-radius: 4px;
+}
+
+.rightBtn{
+    float: right;
+}
+
+.pizza, .grillretter{
+    margin: 4vw 0;
+    font-size: 3.5vw;
+    color: #A81B15;
+}
+
+.productName{
+    font-weight: normal;
+    font-size: 3.5vw;
+    width: 60%;
+    margin: 0;
+    float: left;
+}
+
+#productNormalPrice{
+    width: 30%;
+    display: inline-block;    
+    margin: 0;
+    font-size: 3.5vw;
+    color: #707070;
+}
+
+.fa-plus-square{
+    float: right;
+    color: #A81B15;
+    font-size: 5vw;
+}
+
+.productIngredients{
+    margin: 1vw 0 0 0;
+    font-size: 3vw;
+    color: #707070;
+    display: block;
+    width: 80%;
+}
+
+.orderBox{
+    background-color: white;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif; 
+    margin: 5vw auto 10vw auto;
+    font-size: 3vw;
+    border: solid 2px #A81B15;
+    border-radius: 6px;
+    padding: 0 4vw;
+}
+
+.orderBox i{
+    display: block;
+    z-index: 1;
+    color: #707070;
+    width: 100%;
+    text-align: right;
+    padding: 2vw 0 0 0;
+}
+
+.sizeChoose, .doughChoose, .extraBtn, .extraBox{
+    width: 100%;
+    margin: 3vw 0 0 0;
+}
+
+.normalsizeCheck{
+    width: 10%;
+    margin: 0;
+}
+
+.normalsize{
+    margin: 0;
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    color: #707070;
+}
+
+.normalsizePrice{
+    margin: 0;
+    width: 28%;
+    display: inline-block;
+    text-align: left;
+    float: right;
+    color: #707070;
+}
+
+.normalDoughCheck, .wholeDoughCheck, .extraCheck {
+    width: 10%;
+    margin: 0;
+}
+
+.normalDough, .wholeDough, .extraName{
+    margin: 0;
+    width: 88%;
+    display: inline-block;
+    text-align: left;
+    color: #707070;
+}
+
+.extraBtn{
+    width: 100%;
+    text-align: left;
+    display: block;
+    margin: 3vw 0 0 0;
+    color: white;
+    background-color: #A81B15;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 3vw;
+    border: solid 2px #A81B15;
+    border-radius: 6px;
+}
+
+.extraBtn i{
+    width: 20%;
+    padding: 0.6vw 0 0 0;
+    display: inline-block;
+    float: right;
+    color: white;
+}
+
+.orderCommentTitle{
+    color: #707070;
+    margin: 3vw 0 0 0;
+    width: 100%;
+    
+}
+
+.orderComment{
+    width: 100%;
+    margin: 1vw 0 0 0;
+    border-radius: 6px;
+    box-shadow: none;
+    border: solid 1.3px #707083;
+    font-size: 3vw;
+}
+
+.addToCartBtn{
+    color: #FFA000;
+    background-color: white;
+    margin: 3vw 0 5vw 0;
+    padding: 2vw;
+    border: solid 3px #FFA000;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 55%;
+    font-size: 3vw;
+}
+
+.productPrice{
+    color: #707070;
+    text-align: left;
+    width: 28%;
+    margin: 0 0 0 15%;
+}
+    
+.hey{
+    background-color: #A81B15;
+    color: white;
+}
+
+
+            /*ABOUT US*/
+
+.au-ContentContainer{
+    padding: 4.5vw 3.8vw;
+    color: #707070;
+}
+
+.au-Grid_Title{
+    font-weight: normal;
+    text-align: center;
+    font-size: 5.8vw;
+    margin: 0;
+    padding: 0;
+}
+
+.au-Grid_SubTitle1, .au-Grid_SubTitle2{
+    color: #A81B15;
+    margin: 4.5vw 0 0 0;
+    font-weight: normal;
+    text-align: center;
+    font-size: 5.8vw;
+    padding: 0;
+}
+
+.au-Grid_Text1, .au-Grid_Text2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vw;
+}
+
+.au-Grid_Img1, .au-Grid_Img2, .au-Grid_Img3, .au-Grid_Img4{
+    width: 49%;
+    border-radius: 6px;
+}
+
+
+            /*CONTACT PAGE*/
+
+.ct-ContentContainer{
+    padding: 4.5vw 3.8vw;
+}
+
+.ct-ContentContainer p{
+    margin: 0;
+    font-size: 3vw;
+    text-align: center;
+    line-height: 200%;
+}
+
+.ct-ContentContainer h3{
+    font-weight: normal;
+    text-align: center;
+    font-size: 5.8vw;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.ct-Page_Header{
+    font-weight: normal;
+    text-align: center;
+    font-size: 5vw;
+    margin: 0 0 2vw 0;
+    padding: 0;
+}
+
+.ct-Hours_Day{
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+    font-size: 3.5vw;
+}
+
+.ct-Hours_Day p{
+    text-align: left;
+}
+
+.ct-Hours_Time{
+    display: inline-block;
+    width: 48.6%;
+    font-size: 3.5vw;
+}
+
+.ct-Hours_Time p{    
+        text-align: right;
+}
+
+.ct-Spacing{
+    margin: 4.5vw 0 0 0;
+}
+
+.ct-Page_Image img{
+    width: 100%
+}
+
+#map{
+    width: 100%;
+    height: 50vw;
+    margin: 2vw 0 0 0;
+}
+
+#contactPhone a, #contactEmail a{
+    text-decoration: none;
+    color: #707070;
+    cursor: pointer;
+}
+
+            /*CART PAGE*/
+
+.crt-ContentContainer{
+    padding: 4.5vw 3.8vw;
+    color: #707070;
+}
+
+.crt-ContentContainer h3{
+    text-align: center;
+    font-size: 5.8vw;
+    margin: 0 0 0 0;
+    padding: 0;
+    color: #707070;
+}
+
+.cart{
+    font-size: 3.5vw;
+    height: auto;
+}
+
+.cart p{
+    margin: 0;
+    font-size: 3vw;
+}
+
+.crt-Bill_Product{
+    height:30vw;
+}
+
+#Bill_Productname, #Bill_Productprice{
+    font-size: 3.5vw;
+    padding: 4.5vw 0 0 0;
+}
+
+.crt-Bill_ProductName{
+    font-weight: bold;
+    color: #A81B15;
+    width: 50%;
+    float: left;
+}
+
+.crt-Bill_ProductPriceNumber{
+    width: 49%;
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+.crt-Bill_ProductIng{
+    width: 100%;
+    float: left;
+}
+
+.crt-Bill_ProductDough{
+    width: 100%;
+    float: left;
+}
+
+.crt-Bill_ProductExtra{
+    width: 50%;
+    float: left;
+}
+
+.crt-Bill_ProductExtraPriceNumber{
+    width: 49%;
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+.crt-Bill_ProductComment{
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.crt-Bill_Discount{
+    width: 100%;
+    float: left;
+    text-align: right;
+    font-size: 3vw;
+    margin: 0;
+    padding: 4.5vw 0 0 0;
+}
+
+hr{
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.crt-Price{
+        
+    width: 100%;
+    display: block;
+    float: none;
+}
+
+.crt-Bill_Total{
+    width: 50%;
+    margin: 0 0 2vw 0;
+    font-size: 3.5vw;
+    font-weight: bold;
+    float: left;
+}
+
+.crt-Bill_TotalPrice{
+    width: 49%;
+    font-size: 3.5vw;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 0 2vw 0;;
+    text-align: right;
+    float: none;
+}
+
+.crt-Buttons{
+    display: block;
+    width: 100%;
+    margin: 4vw 0 12vw 0;
+}
+
+#crt-Bill_ClearBtn{
+    border-radius: 6px;
+    box-shadow: none;
+    font-size: 3vw;
+    display: block;
+    width: 49%;
+    float: left;
+    margin: 2vw 0 0 0;
+    padding: 2vw;
+}
+
+#crt-Bill_PayBtn{
+    color: white;
+    background-color: #A81B15;
+    border: solid 0.4vw #A81B15;
+    border-radius: 6px;
+    font-size: 3vw;
+    display: inline-block;
+    width: 49%;
+    float: right;
+    margin: 2vw 0 0 0;
+    padding: 2vw;
+}
+    
+#crt-OrderNowBtn{
+    color: #a81b15;
+    border-color: #a81b15;
+    margin: 15px auto;
+    /*! float: left; */
+    float: left;
+}
+
+#crt-OrderNowBtn:hover{
+    color: white;
+    background-color: #a81b15;
+}
+
+.crt-Buttons-hide{
+    display: none;
+}
+
+.crt-Buttons-show{
+    display: block;
+    text-align: center;
+}
+
+.crt-nonactiveBtn{
+    background-color: white;
+    color: #707070;
+    border: solid 2px #707070;
+    transition: 0.5s;
+}
+
+.crt-nonactiveBtn:hover{        
+    background-color: #707070;
+    color: white;
+    border: solid 2px #707070;
+}
+
+.crt-activeBtn{
+    background-color: #707070;
+    color: white;
+    border: solid 2px #707070;
+}
+
+.crt-Buttons button{
+    border-radius: 6px;
+    padding: 1vw;
+    width: 35vw;
+    margin: 5vw 0 0 0;
+}
+
+.crt-Buttons p{
+    margin: 6vw 0 0 0;
+    font-size: 3.5vw;
+}
+
+.crt-Buttons img{
+    width: 30%
+}
+
+form{
+    text-align: center;
+    width: 70vw;
+    margin: 4vw auto 0 auto;
+}
+
+input{
+    border-radius: 6px;
+    border: solid 1px #707070;
+    display: block;
+    margin: 2vw auto 0 auto;
+    float: left;
+    width: 33vw;
+}
+
+form span{
+    float: left;
+    margin: 2vw 1vw 0 1vw;
+    width: 2vw;
+}
+
+input[name="name"], input[name="number"]{
+    width: 70vw;
+}
+
+input[name="cvv"]{
+    width: 34vw;
+}
+
+
+
+            /*FOOTER*/
+
+footer{
+    padding: 0 3.8vw;
+    background-color: #F8F6F6;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h6{
+    font-weight: normal;
+    font-size: 2.5vw;
+    margin: 2vw 0 0 0;
+    padding: 0;
+}
+
+footer img{
+    width: 4vw;
+    text-align: center;
+    margin: 3vw 0 0 0;
+}
+
+.pg-Footer_SoMe{
+    display: inline-block;
+    /*! padding: 4.5vw 0 2vw 0; */
+    text-align: center;
+}
+
+.pg-Footer_Kontrol{
+    display: inline-block;
+    /*! padding: 4.5vw 0 2vw 48vw; */
+    text-align: center;
+    float: right;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.crt-Footer{
+    width: 100%;
+    float: left;
+    bottom: 0;
+    /*! position: absolute; */
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+            /*TABLETS NAVIGATION*/
+
+    .pg-Top{
+        background-color: white;
+        display: block;
+        padding: 2vw 0 0 0;
+        height: 13vw;
+        width: 100%;
+        margin: 0;
+        box-shadow: 0px 5px 8px #9e9a9a;
+        z-index: 1;
+        position: relative;
+    }
+
+    .pg-Top_Logo{
+        display: inline-block;
+        width: 42vw;
+        margin: 0;
+        padding: 0 0 0 3.8vw;
+        float: left;
+    }
+
+    .pg-Top_Logo img{
+        width: 40%;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        display: inline-block;
+        width: 50vw;
+        float: right;
+        padding: 0 3.8vw 0 0 ;
+    }
+    
+    .pg-Top_Icon {
+        cursor: pointer;
+        font-size: 5vw;
+        float: right;
+        margin: 2vw 0 0 7vw;
+        color: #686868;
+    }
+    
+    #pg-Top_CloseIcon{
+        margin: 2vw 10vw 0 0;
+        font-size: 6vw;
+        color: #707070;
+    }
+    
+    .pg-Top_Menu {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #F8F6F6;
+        transition: 0.5s;
+        white-space: nowrap;
+    }
+    
+    #pg-Top_MenuList {
+        padding: 0;
+        list-style: none;
+    }
+    
+    #pg-Top_MenuList li {
+        height: 15vw;          
+        text-align: center;
+    }
+    
+    #pg-Top_MenuList li a{
+        height: 15vw;
+        color: #A81B15;
+    }
+    
+    #pg-Top_MenuList li img{
+        width: 12vw;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .fa-times {
+        color: white;
+        font-size: 25px;
+    }
+    
+    .notification {
+        position: absolute;
+        top: 1vw;
+        right: 8vw;
+        padding: 1.5vw 1.8vw;
+        border-radius: 50%;
+        background-color: #A81B15;
+        font-size: 3vw;
+        color: white;
+    }
+    
+    .menuLink {        
+        color: white;
+        text-decoration: none;
+        font-size: 6vw;
+        text-align: center;
+    }
+    
+    
+            /*HOME PAGE*/
+
+    /*HERO*/
+
+    .hm-Hero {
+        width: 92.4vw;
+        display: block;
+        padding: 2vw 3.8vw;
+        color: #686868;
+        margin: 0 0 0 0;
+        background-image: url("../images/heromobile.jpg");
+        background-position: center;
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+
+    .hm-Hero_Younes{
+        color: #A81B15;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 7.5vw;
+    }
+    
+    .hm-Hero h1{
+        display: block;
+        text-align: center;
+        padding: 2vw 0 2vw 48vw;
+        margin: 0;
+        font-size: 7vw;
+    }
+    
+    .hm-Hero p{
+        display: block;
+        text-align: center;
+        padding: 0 0 2vw 48vw;
+        margin: 0;
+        font-size: 3vw;
+    }
+    
+    .hm-Hero_ButtonContainer{
+        display: block;
+        text-align: center;
+        padding: 0 0 4.5vw 48vw;
+    }
+    
+    .pg-General_CallAct-button{
+        
+    padding: 1vw;
+    font-size: 3vw;
+    width: 48%;
+    }
+
+
+    /*QUOTE*/
+
+    .hm-Quote{
+        width: 100%;
+        background-color: white;
+        display: block;
+        padding: 0 12vw;
+    }
+    
+    .hm-Quote_Mark{
+        margin: 4vw 0 2vw 0;
+        font-size: 4vw;
+        color: #707070;
+        display: block;
+    }
+    
+    .hm-Quote_padding{
+        padding: 0 12vw;
+    }
+    
+    .hm-Quote p{
+        margin: 2vw 0 0 0;
+        font-size: 3vw;
+        color: #707070;
+        padding: 0 0 0 6vw;
+    }    
+    
+    .hm-Quote_Signature{
+        text-align: center;
+        margin: 2vw 0 4vw 50vw;  
+    }
+    
+    .hm-Quote img{
+        width: 40%;
+    }
+    
+
+    /*DAILY OFFER*/
+    
+    .hm-Grid_DailyOfferDay {grid-area: day;}
+    .hm-Grid_DailyOfferImg {grid-area: img;}
+    .hm-DailyOffer_Name {grid-area: name;}
+    .hm-DailyOffer_Price {grid-area: price;}
+    .hm-DailyOffer_Ing {grid-area: ing;}
+
+    .offer{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "day day"
+        "img img"
+        "name price"
+        "ing ing";
+    }
+
+    .hm-DailyOffer{
+        background-color: #F8F6F6;
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 0 12vw;
+    }
+    
+    .hm-DailyOffer h3{
+        margin: 0;
+        font-weight: normal;
+        padding: 4vw 0 0 0;
+        font-size: 6vw;
+    }
+    
+    .hm-DailyOffer span{
+        display: inline-block;
+        width: 12vw;
+    }
+    
+    .hm-DailyOffer h1{
+        display: inline-block;
+        font-weight: normal;
+        font-size: 5vw;
+        margin: 0;
+        padding: 2vw 0;
+    }
+    
+    .hm-DailyOffer img{
+        padding: 0;
+        width: 50%;
+        border-radius: 5%;
+        margin: 0 auto;
+    }
+    
+    .hm-DailyOffer_Name{
+        text-align: left;
+        margin: 0;
+        padding: 2vw 0 0 0;
+        display: inline-block;
+    }
+    
+    .hm-DailyOffer_Name h4{
+        margin: 0; 
+        padding: 0;
+        font-size: 3vw;
+        font-weight: normal;
+        width: 100%;
+    }
+    
+    .hm-DailyOffer_Price{
+        text-align: right;
+        margin: 0;
+        padding: 2vw 0 0 0;
+        display: inline-block;
+    }
+    
+    .hm-DailyOffer_Price p{
+        margin: 0;
+        padding: 0;
+        font-size: 3vw;
+        font-weight: normal;
+    }
+    
+    .hm-DailyOfferButton_Font{
+        font-size: 3vw;
+        font-weight: normal;
+        margin: 0 0 4vw 0;
+    }
+    
+    .hm-DailyOffer_Ing{
+        text-align: left;
+        margin: 0;
+        padding: 4vw 0 4vw 0;
+        font-size: 3vw;
+    }
+    
+    .hm-DailyOffer_Ing p{
+        margin: 0;
+        padding: 0;
+        font-size: 3vw;
+        font-weight: normal;
+    }
+    
+    .hm-DailyOffer_Button{
+        display: block;
+        text-align: center;
+        padding: 2vw 0 0 0;
+    }
+    
+
+    /*REVIEWS*/
+    
+    .hm-Reviews{
+        background-color: #03010E;
+        color: #B6B6B6;
+        padding: 0 12vw;
+    }
+    
+    .hm-Reviews h3{
+        text-align: center;
+        padding: 4vw 0 0 0;
+        margin: 0;
+        font-size: 6vw;
+    }
+    
+    .hm-Reviews p{
+        margin: 0 0 4vw 0;
+        padding: 0;
+        font-size: 3vw;
+        width: 80%;
+        display: inline-block;
+        min-height: 150px;
+        max-height: 200px;
+    }
+    
+    .hm-Reviews_ArrowLeft{
+        display: inline-block;
+        width: 5%;
+        padding: 0 0 4.5vw 3.8vw; 
+        margin: 0 2.5vw 0 0;
+        font-size: 5vw;
+    }
+    
+    .hm-Reviews_ArrowRight{
+        display: inline-block;
+        width: 5%;
+        padding: 0 3.8vw 4.5vw 0; 
+        margin: 0;
+        text-align: right;
+        font-size: 5vw;
+    }
+
+    #hm-Reviews_Mark{
+    margin: 2vw 0 0 0;
+    }
+
+
+            /*DAILY OFFER PAGE*/
+
+    .fa-arrow-left{
+        font-size: 5vw;
+        transition: 2s;
+        color: #707070;
+        text-align: left;
+        float: left;
+        width: 100%;
+    }
+    
+    #df_Arrow{
+        padding: 2vw 0 0 12vw;        
+    }
+
+    .df-DailyOffer{
+        background-color: white;
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 0 12vw;
+    }
+
+    .df-DailyOffer h3{
+        margin: 0;
+        font-weight: normal;
+        padding: 4vw 0 0 0;
+        font-size: 6vw;
+    }
+
+    .df-DailyOffer span{
+        display: inline-block;
+        width: 12vw;
+    }
+
+    .df-DailyOffer h1{
+        display: inline-block;
+        font-weight: normal;
+        font-size: 5vw;
+        margin: 0;
+        padding: 2vw 0;
+    }
+
+    .df-DailyOffer img{
+        padding: 0 3.8vw;
+        width: 100%;
+        border-radius: 5%;
+        margin: 0 auto;
+    }
+
+    .df-Days-WhiteBg{
+        background-color: white
+    }
+
+    .df-Days-Padding{
+        padding: 0;
+        margin: 0 0 4vw 0;
+    }
+
+    .df-Grid_Paragraph{
+        background-color: #ffffff;
+        color: #af2d28;
+    }
+    
+     /*MENU PAGE*/
+
+.mn-ContentContainer{
+    padding: 4vw 12vw;
+}
+
+.mn-Title{
+    font-weight: normal;
+    text-align: center;
+    font-size: 6vw;
+    margin: 0;
+    padding: 0;
+    color: #707070;
+}
+
+.mn-Content_Box{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+    height: 45vw;
+    padding: 0;
+}
+
+.mn-Content_Box img{
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.mn-Content_Box h2{
+    margin: 2vw 0 0 0;
+    padding: 0;
+    text-align: left;
+    background-color: white;   
+    display: block;
+    width: 60%;
+    float: left;
+    color: #A81B15;
+    font-size: 5.8vw;
+    font-weight: normal;
+}
+
+.mn-Content_Box button{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#mn-Content_SeeMoreBtn{
+    font-size: 3vw;
+    font-weight: normal;
+    padding: 1vw;
+    margin: 2vw auto 2vw auto;
+    float: none;
+}
+
+.orderBox {
+    border: 1px solid;
+    width: 20%;
+}
+
+.orderComment {
+    height: 80px;
+}
+
+button,
+.fas {
+    cursor: pointer;
+    color: #707070;
+    padding: 0;
+    width: 7%;
+}
+
+.successMsg {
+    background-color: #125f12;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 7px 5px -1px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 5px 7px 5px -1px rgba(0, 0, 0, 0.20);
+    box-shadow: 5px 7px 5px -1px rgba(0, 0, 0, 0.20);
+    animation-duration: 0.1s;
+    transform: translateY(-200px);
+    z-index: 0;
+}
+
+.errorMsg {
+    background-color: #7d1313;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 7px 5px -1px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 5px 7px 5px -1px rgba(0, 0, 0, 0.20);
+    box-shadow: 5px 7px 5px -1px rgba(0, 0, 0, 0.20);
+    animation-duration: 0.1s;
+    transform: translateY(-200px);
+}
+
+.successMsg,
+.errorMsg p {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.foodSelector {
+    float: left;
+}
+
+.PizzaBtn{
+    color: #A81B15;
+    background-color: white;
+    border: solid 1vw #A81B15;
+    width: 45%;
+    display: inline-block;
+    padding: 2vw;
+    font-size: 5vw;
+    font-family: 'Open Sans', sans-serif;
+    margin: 3.5vw 0;
+    border-radius: 4px;
+}
+
+.rightBtn{
+    float: right;
+}
+
+.pizza, .grillretter{
+    margin: 4vw 0;
+    font-size: 3.5vw;
+    color: #A81B15;
+}
+
+.productName{
+    font-weight: normal;
+    font-size: 3.5vw;
+    width: 60%;
+    margin: 0;
+    float: left;
+}
+
+#productNormalPrice{
+    width: 30%;
+    display: inline-block;    
+    margin: 0;
+    font-size: 3.5vw;
+    color: #707070;
+}
+
+.fa-plus-square{
+    float: right;
+    color: #A81B15;
+    font-size: 5vw;
+}
+
+.productIngredients{
+    margin: 1vw 0 0 0;
+    font-size: 3vw;
+    color: #707070;
+    display: block;
+    width: 80%;
+}
+
+.orderBox{
+    background-color: white;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif; 
+    margin: 5vw auto 10vw auto;
+    font-size: 3vw;
+    border: solid 2px #A81B15;
+    border-radius: 6px;
+    padding: 0 4vw;
+}
+
+.orderBox i{
+    display: block;
+    z-index: 1;
+    color: #707070;
+    width: 100%;
+    text-align: right;
+    padding: 2vw 0 0 0;
+}
+
+.sizeChoose, .doughChoose, .extraBtn, .extraBox{
+    width: 100%;
+    margin: 3vw 0 0 0;
+}
+
+.normalsizeCheck{
+    width: 10%;
+    margin: 0;
+}
+
+.normalsize{
+    margin: 0;
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    color: #707070;
+}
+
+.normalsizePrice{
+    margin: 0;
+    width: 28%;
+    display: inline-block;
+    text-align: left;
+    float: right;
+    color: #707070;
+}
+
+.normalDoughCheck, .wholeDoughCheck, .extraCheck {
+    width: 10%;
+    margin: 0;
+}
+
+.normalDough, .wholeDough, .extraName{
+    margin: 0;
+    width: 88%;
+    display: inline-block;
+    text-align: left;
+    color: #707070;
+}
+
+.extraBtn{
+    width: 100%;
+    text-align: left;
+    display: block;
+    margin: 3vw 0 0 0;
+    color: white;
+    background-color: #A81B15;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 3vw;
+    border: solid 2px #A81B15;
+    border-radius: 6px;
+}
+
+.extraBtn i{
+    width: 20%;
+    padding: 0.6vw 0 0 0;
+    display: inline-block;
+    float: right;
+    color: white;
+}
+
+.orderCommentTitle{
+    color: #707070;
+    margin: 3vw 0 0 0;
+    width: 100%;
+}
+
+.orderComment{
+    width: 100%;
+    margin: 1vw 0 0 0;
+    border-radius: 6px;
+    box-shadow: none;
+    font-size: 3vw;
+    border: solid 1.3px #707083;
+}
+
+.addToCartBtn{
+    color: #FFA000;
+    background-color: white;
+    margin: 3vw 5vw 5vw 0;
+    padding: 2vw;
+    border: solid 3px #FFA000;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 55%;
+    font-size: 3vw;
+}
+
+.productPrice{
+    color: #707070;
+    text-align: left;
+    width: 28%;
+    margin: 0 0 0 15%;
+}
+    
+.hey{
+    background-color: #A81B15;
+    color: white;
+}
+
+/*ABOUT US*/
+
+.au-ContentContainer{
+    padding: 4vw 12vw;
+    color: #707070;
+}
+
+.au-Grid_Title{
+    font-weight: normal;
+    text-align: center;
+    font-size: 6vw;
+    margin: 0;
+    padding: 0;
+}
+
+.au-Grid_SubTitle1, .au-Grid_SubTitle2{
+    color: #A81B15;
+    margin: 2vw 0 0 0;
+    font-weight: normal;
+    text-align: center;
+    font-size: 5vw;
+    padding: 0;
+}
+
+.au-Grid_Text1, .au-Grid_Text2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vw;
+    margin: 0;
+}
+
+.au-Grid_Img1, .au-Grid_Img2, .au-Grid_Img3, .au-Grid_Img4{
+    width: 49%;
+    margin: 0;
+}
+
+
+            /*CONTACT PAGE*/
+
+    .ct-ContentContainer{
+        padding: 4vw 12vw;
+    }
+                
+    .ct-ContentContainer p{
+        margin: 0;
+        font-size: 3vw;
+        text-align: center;
+        line-height: 200%;
+    }
+                
+    .ct-ContentContainer h3{
+        font-weight: normal;
+        text-align: center;
+        font-size: 6vw;
+        margin: 0;
+        padding: 0;
+    }
+                
+    .ct-Page_Header{
+        font-weight: normal;
+        text-align: center;
+        font-size: 5vw;
+        margin: 0 0 2vw 0;
+        padding: 0;
+    }
+                
+    .ct-Hours_Day{
+        text-align: left;
+        display: inline-block;
+        width: 50%;
+        font-size: 3.5vw;
+    }
+                
+    .ct-Hours_Day p{
+        text-align: left;
+    }
+                
+    .ct-Hours_Time{
+        display: inline-block;
+        width: 48.6%;
+        font-size: 3.5vw;
+    }
+                
+    .ct-Hours_Time p{    
+        text-align: right;
+    }
+                
+    .ct-Spacing{
+        margin: 4.5vw 0 0 0;
+    }
+                
+    .ct-Page_Image img{
+        width: 100%
+    }    
+    
+    
+    /*CART PAGE*/
+
+    .crt-ContentContainer{
+        padding: 4vw 12vw;
+        color: #707070;
+    }
+    
+    .crt-ContentContainer h3{
+        text-align: center;
+        font-size: 6vw;
+        margin: 0 0 0 0;
+        padding: 0;
+        color: #707070;
+    }
+    
+    .cart{
+        font-size: 3vw;
+        height: auto;
+    }
+    
+    .cart p{
+        margin: 0;
+        font-size: 3vw;
+    }
+    
+    #Bill_Productname, #Bill_Productprice{
+        font-size: 3.5vw;
+        padding: 4.5vw 0 0 0;
+    }
+    
+    .crt-Bill_ProductName{
+        font-weight: bold;
+        color: #A81B15;
+        width: 50%;
+        float: left;
+    }
+    
+    .crt-Bill_ProductPriceNumber{
+        width: 49%;
+        display: inline-block;
+        float: right;
+        text-align: right;
+    }
+    
+    .crt-Bill_ProductIng{
+        width: 100%;
+        float: left;
+    }
+    
+    .crt-Bill_ProductDough{
+        width: 100%;
+        float: left;
+    }
+    
+    .crt-Bill_ProductExtra{
+        width: 50%;
+        float: left;
+    }
+    
+    .crt-Bill_ProductExtraPriceNumber{
+        width: 49%;
+        display: inline-block;
+        float: right;
+        text-align: right;
+    }
+    
+    .crt-Bill_ProductComment{
+        width: 100%;
+        display: block;
+        float: left;
+    }
+    
+    .crt-Bill_Discount{
+        width: 100%;
+        float: left;
+        text-align: right;
+        font-size: 3vw;
+        margin: 0;
+        padding: 4.5vw 0 0 0;
+    }
+    
+    hr{
+        width: 100%;
+        display: block;
+        float: left;
+    }
+        
+    .crt-Price{
+            
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    
+    .crt-Bill_Total{
+        width: 50%;
+        margin: 0 0 2vw 0;
+        font-size: 3.5vw;
+        font-weight: bold;
+        float: left;
+    }
+    
+    .crt-Bill_TotalPrice{
+        width: 49%;
+        font-size: 3.5vw;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0 0 2vw 0;;
+        text-align: right;
+        float: none;
+    }
+    
+    .crt-Buttons{
+        display: block;
+        width: 100%;
+        margin: 4vw 0 12vw 0;
+    }
+    
+    #crt-Bill_ClearBtn{
+        border-radius: 6px;
+        box-shadow: none;
+        font-size: 3vw;
+        display: block;
+        width: 49%;
+        float: left;
+    }
+    
+    #crt-Bill_PayBtn{
+        color: white;
+        background-color: #A81B15;
+        border: solid 0.4vw #A81B15;
+        border-radius: 6px;
+        font-size: 3vw;
+        display: inline-block;
+        width: 49%;
+        float: right;
+        }
+        
+    .crt-Buttons button{
+        margin: 3vw 0 0 0;
+        padding: 2vw;
+        font-size: 2.5vw;
+    }
+    
+    input{
+        padding: 1.3vw;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+            /*DESKTOP NAVIGATION*/
+
+    .pg-Top{
+        display: none;
+    }    
+    
+    .pg-TopDesk{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: block;
+        height: 95px;
+        box-shadow: 0px 5px 8px #9e9a9a;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .pg-TopDesk_Logo{
+        display: block;
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        float: left;
+        height: 95px;
+    }
+    
+    .pg-TopDesk_Logo a img{
+        margin: 0;
+        padding: 10px 0 0 20px;
+        width: 135px;
+    }
+    
+    .pg-TopDesk_Nav{
+        display: block;
+        padding: 40px 0 0 0;
+        margin: 0;
+        width: 50%;
+        float: right;
+        height: 95px;
+    }
+
+    .pg-TopDesk_Menu {
+        width: 50%;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .pg-TopDesk_MenuList{
+        margin: 0;
+        text-align: left;
+        height: 55px;
+        padding: 0;
+        float: left;
+        display: block;
+        width: 75%;
+    }
+    
+    .pg-TopDesk_MenuList li{
+        display: inline-block;  
+        height: 0vw;
+        padding: 0 15px 0 0;
+        text-align: left;
+    }
+    
+    .pg-TopDesk_MenuList li a{
+        font-size: 16px;
+        text-align: left;
+        text-decoration: none;
+        color: #707070;
+    }
+        
+    .pg-TopDesk_Flag{
+        width: 9%;
+        display: inline-block;
+        float: left;
+    }
+    
+    .pg-TopDesk_Flag img{
+        width: 30px;
+        padding: 0;
+    }
+    
+    .fa-shopping-cart{
+        font-size: 25px;
+        display: inline-block;
+        margin: 0;
+        padding: 0 15px 0 0;
+        z-index: 1;
+        width: 9%;
+        text-align: right;
+        float: left;
+        color: #707070;
+    }
+    
+    .notificationDesk{
+        font-size: 15px;
+        width: 10px;
+        padding: 5px 16px 5px 10px;
+        margin: 0;
+        background-color: #A81B15;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        top: -1vw;
+        right: 2.5vw;
+    }
+
+
+            /*HOME PAGE*/
+
+    /*HERO*/
+
+    .hm-Grid_HeroWlcm {grid-area: wlcm;}
+    .hm-Hero_OC {grid-area: openclose;}
+    .hm-Grid_HeroIntro {grid-area: intro}
+    .hm-Grid_HeroButton {grid-area: button}
+
+    .hm-Hero{
+        background-image: url("../images/hero-desktop.jpg");
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 15% 30% 50% 5%;
+        grid-template-areas: 
+        ". . wlcm ."
+        ". . openclose ."
+        ". . intro ."
+        ". . button .";
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .hm-Hero h1{
+        padding: 0;
+        font-size: 45px;
+        margin: 15px 0 0 0;
+    }
+    
+    #hm-Hero_Open, #hm-Hero_Closed{
+        font-size: 28px
+    }
+    
+    .hm-Hero_Younes{
+        font-size: 50px;
+    }
+    
+    .hm-Hero p{
+        padding: 15px 0 0 0;
+        font-size: 16px;
+    }
+    
+    .hm-Hero_ButtonContainer{
+        padding: 15px 0 0 0;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .pg-General_CallAct-button{
+        padding: 0;
+        width: 100%;
+        font-size: 16px;
+        transition: 0.5s;
+        margin: 0 0 15px 0;
+        padding: 8px;
+        border: solid 4px #FFA000;
+    }
+        
+    .pg-General_CallAct-button:hover{
+        background-color: #FFA000;
+        color: white;
+        cursor: pointer;
+    }
+
+
+    /*QUOTE*/
+
+    .hm-Grid_QuoteMark {grid-area: mark;}
+    .hm-Grid_QuoteQttn {grid-area: quote;}
+    .hm-Grid_QuoteSign {grid-area: sign;}
+
+    .hm-Quote{
+        padding: 0;
+        width: 768px;
+        display: grid;
+        grid-template-columns: 115.2px 268.8px 268.8px 115.2px;
+        grid-template-areas: 
+        ". mark . ."
+        ". quote quote ."
+        ". . sign .";
+        margin: 0 auto;
+    }
+    
+    .hm-Quote_padding{
+        padding: 0;
+    }
+    
+    .hm-Grid_QuoteMark{
+        font-size: 30px;
+        margin: 30px 0 15px 0;
+    }
+    
+    .hm-Quote p{
+        font-size: 20px;
+    }
+    
+    .hm-Quote_Signature{
+        margin: 15px 0 30px 0;
+    }
+    
+
+    /*DAILY OFFER*/
+
+    .hm-Grid_DailyOfferDay {grid-area: day;}
+    .hm-Grid_DailyOfferImg {grid-area: img;}
+    .hm-DailyOffer_Name {grid-area: name;}
+    .hm-DailyOffer_Price {grid-area: price;}
+    .hm-DailyOffer_Ing {grid-area: ing;}
+    
+    .hm-DailyOffer{
+        padding: 0;
+    }
+
+    .offer{
+        padding: 0;
+        /* /// I also set here the width to 100% */
+        width: 768px;
+        grid-template-columns: 115.2px 268.8px 268.8px 115.2px;
+        grid-template-areas: 
+        ". day day ."
+        ". img img ."
+        ". name price ."
+        ". ing ing .";
+        margin: 0 auto;
+    }
+    
+    .hm-DailyOffer h3{
+        font-size: 45px;
+        padding: 30px 0 0 0;
+    }
+    
+    .hm-DailyOffer h1{
+        font-size: 25px;
+        margin: 10px 0 5px 0;
+    }
+    
+    .hm-DailyOffer img {
+        border-radius: 5%;
+        margin: 0 auto;
+        width: 340.6px;
+        height: auto;
+        background-color: white;
+    }
+    
+    .hm-DailyOffer_Name{
+        padding: 10px 0 0 0;
+        width: 100%;
+        font-size: 18px;
+        height: 50px;
+    }
+    
+    .hm-DailyOffer_Name h4{
+        font-size: 25px;
+    }
+        
+    .hm-DailyOffer_Price{
+        padding: 10px 0 0 0;
+        width: 100%;
+        height: 30px;
+    }
+    
+    .hm-DailyOffer_Price p{
+        font-size: 25px;
+    }
+    
+    .hm-DailyOffer_Ing{
+        padding: 10px 0 0 0;
+        height: 93px;
+    }
+    
+    .hm-DailyOffer_Ing p{
+        font-size: 16px;
+    }
+    
+    .hm-DailyOffer_Button{
+        padding: 15px 0 0 0;
+        width: 100%;
+        text-align: center;
+        margin: -50px 0 0 0;
+    }
+    
+    .hm-DailyOffer_Button button{
+        padding: 1vw;
+        font-size: 1.8vw
+    }
+    
+    #hm-DailyOfferButton-Desk{
+        width: 25%;
+        font-weight: normal;
+        border: solid 0.3vw #FFA000;
+        margin: 15px 15px 30px 0;
+        font-size: 16px;
+    }
+
+
+    /*REVIEWS*/
+
+    .hm-Grid_ReviewsTitle {grid-area: title;}
+    .hm-Quote_Mark {grid-area: mark;}
+    .hm-Reviews_ArrowLeft {grid-area: lefta;}
+    .hm-Grid_ReviewsText {grid-area: txt;}
+    .hm-Reviews_ArrowRight {grid-area: righta;}
+
+    .hm-Reviews{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 15% 7% 56% 7% 15%;
+        grid-template-areas: 
+        ". title title title ."
+        ". mark . . ."
+        ". lefta txt righta .";
+        text-align: center;
+    }
+    
+    .hm-Reviews h3{
+        padding: 30px 0 0 0;
+        font-size: 45px;
+        text-align: center;
+    }
+    
+    #hm-Reviews_Mark{
+        padding: 0;
+        margin: 15px 0 0 0;
+        font-size: 30px;
+    }
+    
+    .hm-Reviews_ArrowLeft{
+        margin: 0 0 30px 0;
+        font-size: 30px;
+        padding: 30px 0 0 0;
+    }
+    
+    .hm-Reviews_ArrowRight{
+        text-align: right;
+        width: 100%;
+        margin: 0 0 30px 0;
+        font-size: 30px;
+        padding: 30px 0 0 0;
+    }
+    
+    .hm-Reviews p{
+        font-size: 16px;
+        width: 100%;
+        padding: 15px 0 65px 0;
+        margin: 0;
+        text-align: left;
+    }
+
+
+            /*MENU PAGE*/    
+        
+    .mn-Title {grid-area: title;}
+    .food {grid-area: food;}
+    .mn-Grid_Pizza {grid-area: pizza;}
+    .mn-Grid_Grill {grid-area: grill;}
+    .mn-Grid_Burger {grid-area: burger;}
+    .mn-Grid_Nuggets {grid-area: nuggets;}
+    .mn-Grid_Pasta {grid-area: pasta;}
+    .mn-Grid_Snacks {grid-area: snacks;}
+    .mn-Grid_Diverse {grid-area: diverse;}
+    .mn-Grid_Pita {grid-area: pita;}
+    .mn-Grid_Sandwich {grid-area: sandwich;}
+    .mn-Grid_Salad {grid-area: salad;}
+    .mn-Grid_Menuer {grid-area: menuer;}
+    .mn-Grid_Drink {grid-area: drink;}
+    .mn-Grid_Exstra {grid-area: extra;}
+
+    .mn-ContentContainer{
+        margin: 0 auto 65px auto;
+        background-color: white;
+        padding: 0;
+        width: 768px;
+        display: grid;
+        grid-gap: 38.4px 9.216px;
+        grid-template-columns: 99.84px 130.56px 130.56px 130.56px 130.56px 99.84px;
+        grid-template-areas: 
+            ". food food food food ."
+            ". title title title title ."
+            ". pizza grill burger nuggets ." 
+            ". pasta snacks diverse pita ." 
+            ". sandwich salad menuer drink ."
+            ". extra . . . .";
+    }
+
+    .mn-Title{
+        margin: -30px 0 0 0;
+        font-weight: normal;
+        padding: 10px 0 0 0;
+        font-size: 45px;
+    }
+    
+    .mn-SubTitle{        
+        padding: 10px 0 0 0;
+        margin: 0 0 10px 0;
+        font-size: 45px;
+    }
+
+    .mn-Content_Box{
+        height: auto;
+        margin: 0;
+    }
+    
+    .mn-Content_Box img{
+        width: 100%;
+        border-radius: 5%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    #mn-Content_SeeMoreBtn{
+         font-size: 16px;
+         margin: 15px auto 0 auto;
+         width: 110px;
+         padding: 1px;
+         border: solid 0.18vw #FFA000;
+         font-weight: normal;
+    }
+    
+    #foodLeftArrowBack{
+        margin: 0;
+        padding: 15px 0 0 0;
+        font-size: 30px;
+    }
+    
+    .pizzaMenu {
+        text-align: center;
+    }
+    
+    .PizzaBtn{        
+        padding: 4px;
+        font-size: 16px;
+        width: 85px;
+        margin: 15px auto 0 auto;
+        border: solid 0.22vw #A81B15;
+    }
+    
+    .rightBtn{        
+        float: none;
+    }
+    
+    .productInfo{
+        margin: 45px 0 0 0;
+        height: 2vw;
+        text-align: left;
+    }
+    
+    .productInfo h2{
+        font-size: 16px;
+        color: #a81b15;
+    }
+    
+    .productInfo i{
+        font-size: 22px;
+        width: 118.08px;
+        display: inline-block;
+        text-align: right;
+    }
+    
+    #productNormalPrice{
+        font-size: 16px;
+        float: left;
+        width: 100px;
+    }
+    
+    .productInfo p{        
+        width: 600px;
+        font-size: 16px;
+        margin: 0;
+        float: left;
+    }
+    
+    .orderBox{
+        width: 500px;
+        margin: 55px 0;
+        padding: 3px;
+        font-size: 18px;
+        text-align: left;
+    }
+    
+    .orderBox i{        
+        padding: 5px 5px 0 0;
+    }
+    
+    .sizeChoose, .doughChoose, .extraBtn, .extraBox{        
+        margin: 15px 0 0 0;
+    }
+    
+    .normalsizeCheck{        
+        width: 50px;
+    }
+    
+    .normalDoughCheck, .wholeDoughCheck, .extraCheck{
+        width: 50px;
+    }
+    
+    .normalsize{        
+        width: 294px;
+    }
+    
+    .normalsizePrice{        
+        width: 131px;
+    }
+    
+    .extraBtn{        
+        font-size: 18px;
+        width: 200px;
+        margin: 15px 0 0 25px;
+    }
+    
+    .orderCommentTitle{        
+        width: 400px;
+        margin: 15px 0 0 25px;
+        text-align: left;
+    }
+    
+    .orderComment{        
+        width: 440px;
+        margin: 15px 25px 0 25px;
+        text-align: left;
+    }
+    
+    .addToCartBtn{
+        margin: 15px 123px 15px 25px;
+        width: 200px;
+        font-size: 18px;
+        padding: 5px;
+        font-weight: normal;
+        border: solid 2.5px #FFA000;
+    }
+    
+    .productPrice{
+        margin: 15px 0 0 0;
+    }
+
+
+            /*ABOUT US*/
+
+    .au-Grid_Title {grid-area: title;}
+    .au-Grid_SubTitle1 {grid-area: subtitle1;}
+    .au-Grid_Text1 {grid-area: text1;}
+    .au-Grid_Img1 {grid-area: img1;}
+    .au-Grid_Img2 {grid-area: img2;}
+    .au-Grid_SubTitle2 {grid-area: subtitle2;}
+    .au-Grid_Text2 {grid-area: text2;}
+    .au-Grid_Img3 {grid-area: img3;}
+    .au-Grid_Img4 {grid-area: img4;}
+
+    .au-ContentContainer{
+        padding: 0 0 65px 0;
+        width: 768px;
+        display: grid;
+        grid-template-columns: 115.2px 268.8px 268.8px 115.2px;
+        grid-template-areas: 
+        ". title title ."
+        ". subtitle1 subtitle1 ."
+        ". text1 text1 ."
+        ". img1 img2 ."
+        ". subtitle2 subtitle2 ."
+        ". text2 text2 ."
+        ". img3 img4 .";
+        margin: 0 auto;
+    }
+    
+    .au-Grid_Title{
+        margin: 0;
+        font-weight: normal;
+        padding: 15px 0 0 0;
+        font-size: 45px;
+        text-align: center;
+        color: #707070;
+    }
+    
+    .au-Grid_SubTitle1, .au-Grid_SubTitle2{
+        margin: 0;
+        font-weight: normal;
+        padding: 10px 0 0 0;
+        font-size: 45px;
+        text-align: center;
+        color: #A81B15;
+    }
+    
+    .au-Grid_SubTitle2{
+        margin: 10px 0 0 0;
+    }
+    
+    .au-Grid_Text1 , .au-Grid_Text2{
+        font-size: 16px;
+        color: #707070;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .au-Grid_Img1, .au-Grid_Img2, .au-Grid_Img3, .au-Grid_Img4{
+        /* width: 268.8px; */
+        width: 260px;
+    }
+        
+
+            /*CONTACT PAGE*/
+
+    .ct-Grid_Title {grid-area: title;}
+    .ct-Grid_OpenHours {grid-area: openhours;}
+    .ct-Grid_Address {grid-area: address;}
+    .ct-Grid_Map {grid-area: map;}
+    .ct-Grid_Other {grid-area: other;}
+
+    .ct-ContentContainer{
+        padding: 0 0 65px 0;
+        width: 768px;
+        display: grid;
+        grid-template-columns: 115.2px 268.8px 268.8px 115.2px;
+        grid-template-areas: 
+        ". title title ."
+        ". map openhours ."
+        ". address other .";
+        margin: 0 auto;
+    }
+    
+    .ct-ContentContainer h3{
+        margin: 0;
+        font-weight: normal;
+        padding: 10px 0 0 0;
+        font-size: 45px;
+    }
+    
+    .ct-Spacing{
+        margin: 0;
+    }
+       
+    .ct-Page_Header{
+        font-size: 35px;
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+    
+    .ct-Hours_Day{
+        width: 180px;
+        padding: 15px 0;
+    }
+    
+    .ct-Hours_Day p{
+        font-size: 1.8vw;        
+        line-height: 120%;
+    }
+    
+    .ct-Hours_Time{
+        width: 65px;
+        padding: 15px 0;
+    }
+    
+    .ct-Hours_Time p{
+        font-size: 1.8vw;        
+        line-height: 120%;
+    }
+    
+    .ct-ContentContainer p{
+        font-size: 16px;        
+    }
+    
+    .ct-Grid_Address{
+        padding: 0 0 30px 0;
+    }
+    
+    .ct-Grid_Other{
+        padding: 0 0 30px 0;
+    }
+    
+    #map{
+        width: 250px;
+        margin: 30px 0 0 0;
+        height: 290px;
+    }
+
+
+            /*DAILY OFFER*/
+
+    .fa-arrow-left{
+        font-size: 30px;        
+        transition: 2s;
+        margin: 0 0 0 51px;
+        display: block;
+        width: 1200px;
+        padding: 15px 0 0 0;
+    }
+
+    .fa-arrow-left:hover{
+        color: #A81B15;
+    }
+
+    .df-Grid_Title {grid-area: title;}
+    .df-Grid_Monday {grid-area: monday;}
+    .df-Grid_Tuesday {grid-area: tuesday;}
+    .df-Grid_Wednesday {grid-area: wednesday;}
+    .df-Grid_Thursday {grid-area: thursday;}
+    .df-Grid_Friday {grid-area: friday;}
+    .df-Grid_Saturday {grid-area: saturday;}
+    .df-Grid_Sunday {grid-area: sunday;}
+    .df-Grid_Paragraph {grid-area: message;}
+
+    .df-DailyOffer{
+        background-color: white;
+        padding: 0 0 65px 0;
+        width: 768px;
+        display: grid;
+        grid-gap: 38.4px 9.216px;
+        grid-template-columns: 99.84px 130.56px 130.56px 130.56px 130.56px 99.84px;
+        grid-template-areas: 
+        ". title title title title ." 
+        ". monday tuesday wednesday thursday ." 
+        ". friday saturday sunday message .";
+        margin: 0 auto;
+    }
+    
+    .df-DailyOffer h3{
+        padding: 0;
+    }
+    
+    .df-Days-Padding{
+        padding: 0;
+        width: 100%;
+    }
+    
+    .df-Days-Padding h1{
+        font-size: 18px;
+        width: 100%;
+        padding: 0;
+        font-weight: bold;
+    }
+    
+    .df-DailyOffer img{
+        padding: 0;
+    }
+    
+
+    /*-MONDAY*/
+
+    .df-Grid_MoDay {grid-area: day;}
+    .df-Grid_MoImg {grid-area: img;}
+    .df-Grid_MoName {grid-area: name;}
+    .df-Grid_MoPrice {grid-area: price;}
+    .df-Grid_MoIng {grid-area: ingr;}
+
+    .df-Grid_Monday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 100% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name name ."
+        ". price price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_MoName h4{
+        font-size: 16px;
+    }
+    
+    .df-Grid_MoPrice p{
+        font-size: 16px;
+    }
+    
+    #df-Grid_MoPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_MoIng  p{
+        font-size: 15px;
+    }
+
+
+    /*-TUESDAY*/
+    .df-Grid_TuDay {grid-area: day;}
+    .df-Grid_TuImg {grid-area: img;}
+    .df-Grid_TuName {grid-area: name;}
+    .df-Grid_TuPrice {grid-area: price;}
+    .df-Grid_TuIng {grid-area: ingr;}
+
+    .df-Grid_Tuesday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 100% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name name ." 
+        ". price price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_TuName h4{
+        font-size: 16px;
+    }
+    
+    .df-Grid_TuPrice p{
+        font-size: 15px;
+    }
+    
+    .df-Grid_TuIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-WEDNESDAY*/
+    .df-Grid_WeDay {grid-area: day;}
+    .df-Grid_WeImg {grid-area: img;}
+    .df-Grid_WeName {grid-area: name;}
+    .df-Grid_WePrice {grid-area: price;}
+    .df-Grid_WeIng {grid-area: ingr;}
+
+    .df-Grid_Wednesday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 100% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name name ."
+        ". price price ."  
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_WeName h4{
+        font-size: 16px;
+    }
+    
+    .df-Grid_WePrice p{
+        font-size: 16px;
+    }
+    
+    #df-Grid_WePrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_WeIng  p{
+        font-size: 15px;
+    }
+
+
+    /*-THURSDAY*/
+    .df-Grid_ThDay {grid-area: day;}
+    .df-Grid_ThImg {grid-area: img;}
+    .df-Grid_ThName {grid-area: name;}
+    .df-Grid_ThPrice {grid-area: price;}
+    .df-Grid_ThIng {grid-area: ingr;}
+
+    .df-Grid_Thursday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 100% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name name ."
+        ". price price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_ThName h4{
+        font-size: 16px;
+    }
+    
+    .df-Grid_ThPrice p{
+        font-size: 16px;
+    }
+    
+    #df-Grid_ThPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_ThIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-FRIDAY*/
+    .df-Grid_FrDay {grid-area: day;}
+    .df-Grid_FrImg {grid-area: img;}
+    .df-Grid_FrName {grid-area: name;}
+    .df-Grid_FrPrice {grid-area: price;}
+    .df-Grid_FrIng {grid-area: ingr;}
+
+    .df-Grid_Friday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 100% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name name ."
+        ". price price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_FrName h4{
+        font-size: 16px;
+    }
+    
+    .df-Grid_FrPrice p{
+        font-size: 16px;
+    }
+    
+    #df-Grid_FrPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_FrIng  p{
+        font-size: 15px;
+    }
+
+
+    /*-SATURDAY*/
+    .df-Grid_SaDay {grid-area: day;}
+    .df-Grid_SaImg {grid-area: img;}
+    .df-Grid_SaName {grid-area: name;}
+    .df-Grid_SaPrice {grid-area: price;}
+    .df-Grid_SaIng {grid-area: ingr;}
+
+    .df-Grid_Saturday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 100% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name name ."
+        ". price price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_SaName h4{
+        font-size: 16px;
+    }
+    
+    .df-Grid_SaPrice p{
+        font-size: 16px;
+    }
+    
+    #df-Grid_SaPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_SaIng  p{
+        font-size: 15px;
+    }
+
+
+    /*-SUNDAY*/
+    .df-Grid_SuDay {grid-area: day;}
+    .df-Grid_SuImg {grid-area: img;}
+    .df-Grid_SuName {grid-area: name;}
+    .df-Grid_SuPrice {grid-area: price;}
+    .df-Grid_SuIng {grid-area: ingr;}
+
+    .df-Grid_Sunday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 100% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name name ."
+        ". price price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_SuName h4{
+        font-size: 16px;
+    }
+    
+    .df-Grid_SuPrice p{
+        font-size: 16px;
+    }
+    
+    #df-Grid_SuPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_SuIng  p{
+        font-size: 15px;
+    }
+
+
+    /*-MESSAGE*/
+    .df-Grid_ParagraphText {grid-area: paragraph;}
+
+    .df-Grid_Paragraph{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        background-color: #ffffff;
+        color: #af2d28;
+        grid-template-columns: 0% 100% 0%;
+        grid-template-areas: 
+        ". paragraph ." 
+    }
+        
+    .df-Grid_ParagraphText  p{
+        font-size: 15px;
+        margin: 0.8vw 0 0 0;
+        background-color: #ffffff;
+        color: #af2d28;
+        padding: 1vw;
+    }
+
+
+            /*CART PAGE*/ 
+
+    .crt-Grid_Title {grid-area: title;}
+    .cart {grid-area: cart;font-size: 16px;}
+    .crt-Bill_Discount {grid-area: discount;}
+    .crt-Grid_Underline {grid-area: lining;}
+    .crt-Price {grid-area: price;}
+    .crt-Buttons {grid-area: buttons;}
+
+    .crt-ContentContainer{
+        padding: 0;
+        width: 768px;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: 115.2px 268.8px 268.8px 115.2px;
+        grid-template-areas: 
+        ". title title ." 
+        ". cart cart ." 
+        ". . discount ." 
+        ". lining lining ."
+        ". price price ."
+        ". buttons buttons .";
+    }
+    
+    .crt-Bill_Product{
+        height: 250px
+    }
+
+    .crt-ContentContainer h3{
+        margin: 0;
+        font-weight: normal;
+        padding: 10px 0 0 0;
+        font-size: 45px;
+        text-align: center;
+        color: #707070;
+    }
+    
+    #Bill_Productname, #Bill_Productprice{        
+        font-size: 18px;
+        padding: 0;
+        margin: 15px 0 0 0;
+    }
+    
+    .cart p, .crt-Bill_Discount{
+        font-size: 16px;
+        padding: 15px 0 0 0;
+    }
+    
+    .crt-Bill_Total, .crt-Bill_TotalPrice{
+        font-size: 20px;
+        width: 268.8px;
+    }
+    
+    .crt-Bill_TotalPrice{
+        text-align: right;
+    }
+    
+    #crt-Bill_ClearBtn{
+        width: 180px;
+        margin: 15px 0 20px 0;
+        font-size: 16px;
+    }
+    
+    #crt-Bill_PayBtn{
+        width: 180px; 
+        margin: 15px 0 20px 88.8px;
+        font-size: 16px;
+    }
+
+    #crt-Bill_PayBtn:hover{
+        box-shadow: none;
+    }
+    
+    .crt-Buttons button{
+        width: 180px;
+        display: inline-block;
+        border-radius: 6px;
+        padding: 5px;
+        font-size: 16px;
+        margin: 15px 0 0 0;
+    }
+    
+    .crt-Buttons_ChooseGetting{
+        width: 100%;
+        float: left;
+    }
+    
+    .crt-MobilePayForm img{
+        width: 150px;
+        margin: 15px 0 0 0;
+    }
+    
+    .crt-Buttons p{
+        margin: 35px 0 0 0;
+    }
+    
+    form{
+        text-align: center;
+        margin: 0;
+    }
+    
+    input{
+        border-radius: 6px;
+        border: solid 1px black;
+        display: block;
+        width: 170px;     
+        float: left;
+        padding: 4px;
+        margin: 15px 0 0 88.8px;
+    }
+    
+    input[name="name"]{
+        width: 360px;  
+        margin: 25px 0 0 88.8px;
+    }    
+    
+    form span{
+        display: inline-block;
+        width: 10px;
+        float: left;
+        margin: 15px 5px 0 5px;
+    }
+    
+    input[name="year"]{
+        margin: 15px 0 0 0;
+    }
+    
+    input[name="number"]{
+        width: 360px;
+    }
+    
+    #crt-OrderNowBtn{
+        float: left;
+        width: 50%;
+        margin: 15px 88.8px 0 88.8px;
+    }
+
+    
+            /*DESKTOP FOOTER*/
+
+    footer{
+        padding: 0 15px;
+        height: 105px;
+        width: 100%;
+    }
+    
+    .pg-Footer_SoMe{        
+        padding: 15px 0 0 30px;
+        height: 80px;
+    }
+    
+    .pg-Footer_Kontrol{
+        padding: 15px 15px 0 0;
+        height: 80px;
+    }
+    
+    footer h6{
+        font-size: 16px;
+        text-align: left;
+        padding: 0 0 15px 0;
+    }
+    
+    footer img{
+        width: 35px;
+        padding: 0 10px 0 0;
+        margin: 0;
+    }
+    
+    footer p{
+        font-size: 13px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {   
+
+            /*DESKTOP NAVIGATION*/
+
+    .pg-Top{
+        display: none;
+    }    
+    
+    .pg-TopDesk{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: block;
+        height: 120px;
+        box-shadow: 0px 5px 8px #9e9a9a;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .pg-TopDesk_Logo{
+        display: block;
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        float: left;
+        height: 120px;
+    }
+    
+    .pg-TopDesk_Logo a img{
+        margin: 0;
+        padding: 15px 0 0 30px;
+        width: 165px;
+    }
+    
+    .pg-TopDesk_Nav{
+        display: block;
+        padding: 45px 0 0 0;
+        margin: 0;
+        width: 50%;
+        float: right;
+        height: 120px;
+    }
+
+    .pg-TopDesk_Menu {
+        width: 50%;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .pg-TopDesk_MenuList{
+        margin: 0;
+        text-align: left;
+        height: 70px;
+        padding: 0;
+        float: left;
+        display: block;
+        width: 80%;
+    }
+    
+    .pg-TopDesk_MenuList li{
+        display: inline-block;  
+        height: 0vw;
+        padding: 0 20px 0 0;
+        text-align: left;
+    }
+    
+    .pg-TopDesk_MenuList li a{
+        font-size: 22px;
+        text-align: left;
+        text-decoration: none;
+        color: #707070;
+    }
+        
+    .pg-TopDesk_Flag{
+        width: 9%;
+        display: inline-block;
+        float: left;
+    }
+    
+    .pg-TopDesk_Flag img{
+        width: 40px;
+        padding: 2px 0 0 0;
+    }
+    
+    .fa-shopping-cart{
+        font-size: 35px;
+        display: inline-block;
+        margin: 0;
+        padding: 0 15px 0 0;
+        z-index: 1;
+        width: 9%;
+        text-align: right;
+        float: left;
+        color: #707070;
+    }
+    
+    .notificationDesk{
+        font-size: 26px;
+        width: 10px;
+        padding: 5px 22px 5px 10px;
+        margin: 0;
+        background-color: #A81B15;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        top: -2vw;
+        right: 0.1vw;
+    }
+
+
+            /*HOME PAGE*/
+
+    /*HERO*/
+
+    .hm-Grid_HeroWlcm {grid-area: wlcm;}    
+    .hm-Hero_OC {grid-area: openclose;}
+    .hm-Grid_HeroIntro {grid-area: intro}
+    .hm-Grid_HeroButton {grid-area: button}
+
+    .hm-Hero{
+        background-image: url("../images/hero-desktop.jpg");
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 25% 30% 30% 15%;
+        grid-template-areas: 
+        ". . wlcm ."
+        ". . openclose ."
+        ". . intro ."
+        ". . button .";
+        margin: 0 auto;
+    }
+    
+    .hm-Hero h1{
+        padding: 0;
+        font-size: 55px;
+        margin: 15px 0 0 0;
+    }
+    
+    .hm-Hero_Younes{
+        font-size: 60px;
+    }
+    
+    .hm-Hero p{
+        padding: 15px 0 0 0;
+        font-size: 20px;
+    }
+    
+    .hm-Hero_ButtonContainer{
+        padding: 15px 0 0 0;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .pg-General_CallAct-button{
+        padding: 0;
+        width: 100%;
+        font-size: 20px;
+        transition: 0.5s;
+        margin: 0 0 15px 0;
+        padding: 8px;
+        border: solid 4px #FFA000;
+    }
+        
+    .pg-General_CallAct-button:hover{
+        background-color: #FFA000;
+        color: white;
+        cursor: pointer;
+    }
+
+
+    /*QUOTE*/
+
+    .hm-Grid_QuoteMark {grid-area: mark;}
+    .hm-Grid_QuoteQttn {grid-area: quote;}
+    .hm-Grid_QuoteSign {grid-area: sign;}
+
+    .hm-Quote{
+        padding: 0;
+        width: 992px;
+        display: grid;
+        grid-template-columns: 148.8px 347.2px 347.2px 148.8px;
+        grid-template-areas: 
+        ". mark . ."
+        ". quote quote ."
+        ". . sign .";
+        margin: 0 auto;
+    }
+    
+    .hm-Quote_padding{
+        padding: 0;
+    }
+    
+    .hm-Grid_QuoteMark{
+        font-size: 40px;
+        margin: 30px 0 15px 0;
+    }
+    
+    .hm-Quote p{
+        font-size: 20px;
+    }
+    
+    .hm-Quote_Signature{
+        margin: 15px 0 30px 0;
+    }
+    
+
+    /*DAILY OFFER*/
+
+    .hm-Grid_DailyOfferDay {grid-area: day;}
+    .hm-Grid_DailyOfferImg {grid-area: img;}
+    .hm-DailyOffer_Name {grid-area: name;}
+    .hm-DailyOffer_Price {grid-area: price;}
+    .hm-DailyOffer_Ing {grid-area: ing;}
+
+    .offer{
+        padding: 0;
+        /* /// This grid was breaking the code, but if we set the width to 100% it fits perfectly. */
+        width: 992px; grid-template-columns: 148.8px 347.2px 347.2px 148.8px;
+        grid-template-areas: 
+        ". day day ."
+        ". img img ."
+        ". name price ."
+        ". ing ing .";
+        margin: 0 auto;
+    }
+    
+    .hm-DailyOffer{
+        padding: 0;
+    }
+    
+    .hm-DailyOffer h3{
+        font-size: 50px;
+        padding: 30px 0 0 0;
+    }
+    
+    .hm-DailyOffer h1{
+        font-size: 35px;
+        padding: 15px 0 0 0;
+    }
+    
+    .hm-DailyOffer img {
+        padding: 15px 0 0 0;
+        border-radius: 5%;
+        margin: 0 auto;
+        /* /// I changed the width to 100% */
+        /* width: 672px; */
+        width: 60%;
+        height: auto;
+        background-color: white;
+    }
+    
+    .hm-DailyOffer_Name{
+        padding: 15px 0 0 0;
+        width: 100%;
+        font-size: 18px;
+        height: 60px;
+    }
+    
+    .hm-DailyOffer_Name h4{
+        font-size: 35px;
+    }
+    
+    .hm-DailyOffer_Price{
+        padding: 15px 0 0 0;
+        width: 100%;
+    }
+    
+    .hm-DailyOffer_Price p{
+        font-size: 35px;
+    }
+    
+    .hm-DailyOffer_Ing{
+        padding: 15px 0 0 0;
+        height: 80px;
+    }
+    
+    .hm-DailyOffer_Ing p{
+        font-size: 18px;
+    }
+    
+    .hm-DailyOffer_Button{
+        padding: 15px 0 0 0;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .hm-DailyOffer_Button button{
+        padding: 1vw;
+        font-size: 1.8vw
+    }
+    
+    #hm-DailyOfferButton-Desk{
+        width: 25%;
+        font-weight: normal;
+        border: solid 0.3vw #FFA000;
+        margin: 15px 15px 30px 0;
+    }
+
+
+    /*REVIEWS*/
+
+    .hm-Grid_ReviewsTitle {grid-area: title;}
+    .hm-Quote_Mark {grid-area: mark;}
+    .hm-Reviews_ArrowLeft {grid-area: lefta;}
+    .hm-Grid_ReviewsText {grid-area: txt;}
+    .hm-Reviews_ArrowRight {grid-area: righta;}
+
+    .hm-Reviews{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 15% 7% 56% 7% 15%;
+        grid-template-areas: 
+        ". title title title ."
+        ". mark . . ."
+        ". lefta txt righta .";
+        text-align: center;
+    }
+    
+    .hm-Reviews h3{
+        padding: 30px 0 0 0;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    #hm-Reviews_Mark{
+        padding: 0;
+        margin: 15px 0 0 0;
+        font-size: 40px;
+    }
+    
+    .hm-Reviews_ArrowLeft{
+        margin: 0 0 30px 0;
+        font-size: 40px;
+        padding: 30px 0 0 0;
+    }
+    
+    .hm-Reviews_ArrowRight{
+        text-align: right;
+        width: 100%;
+        margin: 0 0 30px 0;
+        font-size: 40px;
+        padding: 30px 0 0 0;
+    }
+    
+    .hm-Reviews p{
+        font-size: 18px;
+        width: 100%;
+        padding: 15px 0 65px 0;
+        margin: 0;
+        text-align: left;
+        min-height: 180px;
+        max-height: 250px;
+    }
+
+
+            /*MENU PAGE*/    
+        
+    .mn-Title {grid-area: title;}
+    .food {grid-area: food;}
+    .mn-Grid_Pizza {grid-area: pizza;}
+    .mn-Grid_Grill {grid-area: grill;}
+    .mn-Grid_Burger {grid-area: burger;}
+    .mn-Grid_Nuggets {grid-area: nuggets;}
+    .mn-Grid_Pasta {grid-area: pasta;}
+    .mn-Grid_Snacks {grid-area: snacks;}
+    .mn-Grid_Diverse {grid-area: diverse;}
+    .mn-Grid_Pita {grid-area: pita;}
+    .mn-Grid_Sandwich {grid-area: sandwich;}
+    .mn-Grid_Salad {grid-area: salad;}
+    .mn-Grid_Menuer {grid-area: menuer;}
+    .mn-Grid_Drink {grid-area: drink;}
+    .mn-Grid_Exstra {grid-area: extra;}
+
+    .mn-ContentContainer{
+        margin: 0 auto 65px auto;
+        background-color: white;
+        padding: 0;
+        width: 992px;
+        display: grid;
+        grid-gap: 49.6px 11.904px;
+        grid-template-columns: 128.96px 168.64px 168.64px 168.64px 168.64px 128.96px;
+        grid-template-areas: 
+            ". food food food food ."
+            ". title title title title ."
+            ". pizza grill burger nuggets ." 
+            ". pasta snacks diverse pita ." 
+            ". sandwich salad menuer drink ."
+            ". extra . . . .";
+    }
+
+    .mn-Title{
+        margin: -60px 0 0 0;
+        font-weight: normal;
+        padding: 15px 0 0 0;
+        font-size: 60px;
+    }
+    
+    .mn-SubTitle{
+        
+    padding: 15px 0 0 0;
+    margin: 0 0 15px 0;
+    font-size: 60px;
+    }
+
+    .mn-Content_Box{
+        height: auto;
+        margin: 0;
+    }
+    
+    .mn-Content_Box img{
+        width: 100%;
+        border-radius: 5%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    #mn-Content_SeeMoreBtn{
+         font-size: 20px;
+         margin: 15px 0 0 29.32px;
+         width: 110px;
+         padding: 1px;
+         border: solid 0.18vw #FFA000;
+         font-weight: normal;
+    }
+    
+    #foodLeftArrowBack{
+        margin: 0 0 0 -200px;
+        padding: 15px 0 0 0;
+        font-size: 40px;
+        width: 100%;
+    }
+    
+    .pizzaMenu {
+        text-align: center;
+    }
+    
+    .PizzaBtn{        
+        padding: 4px;
+        font-size: 22px;
+        width: 113px;
+        margin: 15px auto 0 auto;
+        border: solid 0.22vw #A81B15;
+    }
+    
+    .rightBtn{        
+        float: none;
+    }
+    
+    .productInfo{
+        margin: 20px 0 0 0;
+        height: 60px;
+        text-align: left;
+    }
+    
+    .productInfo h2{font-size: 25px;}
+    
+    .productInfo i{font-size: 35px;width: 118.08px;display: inline-block;text-align: right;}
+    
+    #productNormalPrice{
+        font-size: 25px;
+        float: left;
+        width: 160px;
+    }
+    
+    .productInfo p{        
+        width: 629.76px;
+        font-size: 18px;
+        margin: 0;
+        float: left;
+    }
+    
+    .orderBox{
+        width: 500px;
+        margin: 20px 0 25px 0;
+        padding: 3px;
+        font-size: 18px;
+        text-align: left;
+    }
+    
+    .orderBox i{        
+        padding: 5px 5px 0 0;
+    }
+    
+    .sizeChoose, .doughChoose, .extraBtn, .extraBox{        
+        margin: 15px 0 0 0;
+    }
+    
+    .normalsizeCheck{        
+        width: 50px;
+    }
+    
+    .normalDoughCheck, .wholeDoughCheck, .extraCheck{
+        width: 50px;
+    }
+    
+    .normalsize{        
+        width: 294px;
+    }
+    
+    .normalsizePrice{
+        
+    width: 131px;
+    }
+    
+    .extraBtn{        
+        font-size: 18px;
+        width: 200px;
+        margin: 15px 0 0 25px;
+    }
+    
+    .orderCommentTitle{        
+        width: 400px;
+        margin: 15px 0 0 25px;
+        text-align: left;
+    }
+    
+    .orderComment{        
+        width: 440px;
+        margin: 15px 25px 0 25px;
+        text-align: left;
+        font-size: 16px;
+    }
+    
+    .addToCartBtn{
+        margin: 15px 123px 15px 25px;
+        width: 200px;
+        font-size: 18px;
+        padding: 5px;
+        font-weight: normal;
+        border: solid 2.5px #FFA000;
+    }
+    
+    .productPrice{
+        margin: 15px 0 0 0;
+    }
+
+
+            /*ABOUT US*/
+
+    .au-Grid_Title {grid-area: title;}
+    .au-Grid_SubTitle1 {grid-area: subtitle1;}
+    .au-Grid_Text1 {grid-area: text1;}
+    .au-Grid_Img1 {grid-area: img1;}
+    .au-Grid_Img2 {grid-area: img2;}
+    .au-Grid_SubTitle2 {grid-area: subtitle2;}
+    .au-Grid_Text2 {grid-area: text2;}
+    .au-Grid_Img3 {grid-area: img3;}
+    .au-Grid_Img4 {grid-area: img4;}
+
+    .au-ContentContainer{
+        padding: 0 0 65px 0;
+        width: 992px;
+        display: grid;
+        grid-template-columns: 148.8px 347.2px 347.2px 148.8px;
+        grid-template-areas: 
+        ". title title ."
+        ". subtitle1 subtitle1 ."
+        ". text1 text1 ."
+        ". img1 img2 ."
+        ". subtitle2 subtitle2 ."
+        ". text2 text2 ."
+        ". img3 img4 .";
+        margin: 0 auto;
+    }
+    
+    .au-Grid_Title{
+        margin: 0;
+        font-weight: normal;
+        padding: 15px 0 0 0;
+        font-size: 60px;
+        text-align: center;
+        color: #707070;
+    }
+    
+    .au-Grid_SubTitle1, .au-Grid_SubTitle2{
+        margin: 0;
+        font-weight: normal;
+        padding: 15px 0 0 0;
+        font-size: 60px;
+        text-align: center;
+        color: #A81B15;
+    }
+    
+    .au-Grid_SubTitle2{
+        margin: 15px 0 0 0;
+    }
+    
+    .au-Grid_Text1 , .au-Grid_Text2{
+        font-size: 18px;
+        color: #707070;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .au-Grid_Img1, .au-Grid_Img2, .au-Grid_Img3, .au-Grid_Img4{
+        /* width: 420px; */
+        width: 340px;
+    }
+        
+
+            /*CONTACT PAGE*/
+
+    .ct-Grid_Title {grid-area: title;}
+    .ct-Grid_OpenHours {grid-area: openhours;}
+    .ct-Grid_Address {grid-area: address;}
+    .ct-Grid_Map {grid-area: map;}
+    .ct-Grid_Other {grid-area: other;}
+
+    .ct-ContentContainer{
+        padding: 0 0 65px 0;
+        width: 992px;
+        display: grid;
+        grid-template-columns: 148.8px 347.2px 347.2px 148.8px;
+        grid-template-areas: 
+        ". title title ."
+        ". map openhours ."
+        ". address other .";
+        margin: 0 auto;
+    }
+    
+    .ct-ContentContainer h3{
+        margin: 0;
+        font-weight: normal;
+        padding: 15px 0 0 0;
+        font-size: 60px;
+    }
+    
+    .ct-Spacing{
+        margin: 0;
+    }
+       
+    .ct-Page_Header{
+        font-size: 50px;
+        padding: 30px 0 0 0;
+        margin: 0;
+    }
+    
+    .ct-Hours_Day{
+        width: 210px;
+        padding: 15px 0;
+    }
+    
+    .ct-Hours_Day p{
+        font-size: 1.8vw;        
+        line-height: 120%;
+    }
+    
+    .ct-Hours_Time{
+        width: 130.2px;
+        padding: 15px 0;
+    }
+    
+    .ct-Hours_Time p{
+        font-size: 1.8vw;        
+        line-height: 120%;
+    }
+    
+    .ct-ContentContainer p{
+        font-size: 18px;        
+    }
+    
+    .ct-Grid_Address{
+        padding: 0 0 30px 0;
+    }
+    
+    .ct-Grid_Other{
+        padding: 0 0 30px 0;
+    }
+    
+    #map{
+        width: 320px;
+        margin: 30px 0 0 0;
+        height: 290px;
+    }
+
+
+            /*DAILY OFFER*/
+
+    .fa-arrow-left{
+        font-size: 40px;        
+        transition: 2s;
+        margin: 0 0 0 51px;
+        display: block;
+        width: 1200px;
+        padding: 15px 0 0 0;
+    }
+
+    .fa-arrow-left:hover{
+        color: #A81B15;
+    }
+
+    .df-Grid_Title {grid-area: title;}
+    .df-Grid_Monday {grid-area: monday;}
+    .df-Grid_Tuesday {grid-area: tuesday;}
+    .df-Grid_Wednesday {grid-area: wednesday;}
+    .df-Grid_Thursday {grid-area: thursday;}
+    .df-Grid_Friday {grid-area: friday;}
+    .df-Grid_Saturday {grid-area: saturday;}
+    .df-Grid_Sunday {grid-area: sunday;}
+    .df-Grid_Paragraph {grid-area: message;}
+
+    .df-DailyOffer{
+        background-color: white;
+        padding: 0 0 65px 0;
+        width: 1200px;
+        display: grid;
+        grid-gap: 60px 14.4px;
+        grid-template-columns: 156px 204px 204px 204px 204px 156px;
+        grid-template-areas: 
+        ". title title title title ." 
+        ". monday tuesday wednesday thursday ." 
+        ". friday saturday sunday message .";
+        margin: 0 auto;
+    }
+    
+    .df-Days-Padding{
+        padding: 0;
+        width: 100%;
+    }
+    
+    .df-Days-Padding h1{
+        font-size: 20px;
+        width: 100%;
+        padding: 0;
+        font-weight: bold;
+    }
+    
+    .df-DailyOffer img{
+        padding: 0;
+    }
+    
+
+    /*-MONDAY*/
+
+    .df-Grid_MoDay {grid-area: day;}
+    .df-Grid_MoImg {grid-area: img;}
+    .df-Grid_MoName {grid-area: name;}
+    .df-Grid_MoPrice {grid-area: price;}
+    .df-Grid_MoIng {grid-area: ingr;}
+
+    .df-Grid_Monday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_MoName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_MoPrice p{
+        font-size: 18px;
+    }
+    
+    #df-Grid_MoPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_MoIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-TUESDAY*/
+    .df-Grid_TuDay {grid-area: day;}
+    .df-Grid_TuImg {grid-area: img;}
+    .df-Grid_TuName {grid-area: name;}
+    .df-Grid_TuPrice {grid-area: price;}
+    .df-Grid_TuIng {grid-area: ingr;}
+
+    .df-Grid_Tuesday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_TuName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_TuPrice p{
+        font-size: 18px;
+    }
+    
+    .df-Grid_TuIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-WEDNESDAY*/
+    .df-Grid_WeDay {grid-area: day;}
+    .df-Grid_WeImg {grid-area: img;}
+    .df-Grid_WeName {grid-area: name;}
+    .df-Grid_WePrice {grid-area: price;}
+    .df-Grid_WeIng {grid-area: ingr;}
+
+    .df-Grid_Wednesday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_WeName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_WePrice p{
+        font-size: 18px;
+    }
+    
+    #df-Grid_WePrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_WeIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-THURSDAY*/
+    .df-Grid_ThDay {grid-area: day;}
+    .df-Grid_ThImg {grid-area: img;}
+    .df-Grid_ThName {grid-area: name;}
+    .df-Grid_ThPrice {grid-area: price;}
+    .df-Grid_ThIng {grid-area: ingr;}
+
+    .df-Grid_Thursday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_ThName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_ThPrice p{
+        font-size: 18px;
+    }
+    
+    #df-Grid_ThPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_ThIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-FRIDAY*/
+    .df-Grid_FrDay {grid-area: day;}
+    .df-Grid_FrImg {grid-area: img;}
+    .df-Grid_FrName {grid-area: name;}
+    .df-Grid_FrPrice {grid-area: price;}
+    .df-Grid_FrIng {grid-area: ingr;}
+
+    .df-Grid_Friday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_FrName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_FrPrice p{
+        font-size: 18px;
+    }
+    
+    #df-Grid_FrPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_FrIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-SATURDAY*/
+    .df-Grid_SaDay {grid-area: day;}
+    .df-Grid_SaImg {grid-area: img;}
+    .df-Grid_SaName {grid-area: name;}
+    .df-Grid_SaPrice {grid-area: price;}
+    .df-Grid_SaIng {grid-area: ingr;}
+
+    .df-Grid_Saturday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_SaName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_SaPrice p{
+        font-size: 18px;
+    }
+    
+    #df-Grid_SaPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_SaIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-SUNDAY*/
+    .df-Grid_SuDay {grid-area: day;}
+    .df-Grid_SuImg {grid-area: img;}
+    .df-Grid_SuName {grid-area: name;}
+    .df-Grid_SuPrice {grid-area: price;}
+    .df-Grid_SuIng {grid-area: ingr;}
+
+    .df-Grid_Sunday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_SuName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_SuPrice p{
+        font-size: 18px;
+    }
+    
+    #df-Grid_SuPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_SuIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-MESSAGE*/
+    .df-Grid_ParagraphText {grid-area: paragraph;}
+
+    .df-Grid_Paragraph{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        background-color: #ffffff;
+        color: #af2d28;
+        grid-template-columns: 0% 100% 0%;
+        grid-template-areas: 
+        ". paragraph ." 
+    }
+        
+    .df-Grid_ParagraphText  p{
+        font-size: 16px;
+        margin: 0.8vw 0 0 0;
+        background-color: #ffffff;
+        color: #af2d28;
+        padding: 1vw;
+    }
+
+
+            /*CART PAGE*/
+
+    .crt-Grid_Title {grid-area: title;}
+    .cart {grid-area: cart;font-size: 23px;}
+    .crt-Bill_Discount {grid-area: discount;}
+    .crt-Grid_Underline {grid-area: lining;}
+    .crt-Price {grid-area: price;}
+    .crt-Buttons {grid-area: buttons;}
+
+    .crt-ContentContainer{
+        padding: 0;
+        width: 992px;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: 148.56px 347.2px 347.2px 148.56px;
+        grid-template-areas: 
+        ". title title ." 
+        ". cart cart ." 
+        ". . discount ." 
+        ". lining lining ."
+        ". price price ."
+        ". buttons buttons .";
+    }
+
+    .crt-ContentContainer h3{
+        margin: 0;
+        font-weight: normal;
+        padding: 15px 0 0 0;
+        font-size: 60px;
+        text-align: center;
+        color: #707070;
+    }
+    
+    #Bill_Productname, #Bill_Productprice{        
+        font-size: 22px;
+        padding: 0;
+        margin: 15px 0 0 0;
+    }
+    
+    .cart p, .crt-Bill_Discount{
+        font-size: 18px;
+        padding: 15px 0 0 0;
+    }
+    
+    .crt-Bill_Total, .crt-Bill_TotalPrice{
+        font-size: 22px;
+        width: 347.2px;
+    }
+    
+    .crt-Bill_TotalPrice{
+        text-align: right;
+    }
+    
+    #crt-Bill_ClearBtn{
+        width: 200px;
+        margin: 15px 0 15px 0;
+        font-size: 23px;
+    }
+    
+    #crt-Bill_PayBtn{
+        width: 200px; 
+        margin: 15px 0 15px 147.2px;
+        font-size: 23px;
+    }
+
+    #crt-Bill_PayBtn:hover{
+        box-shadow: none;
+    }
+    
+    .crt-Buttons button{
+        width: 240px;
+    }
+    
+    input{
+        margin: 15px 0 0 107.2px;
+        width: 230px;
+        padding: 7px;
+    }
+    
+    input[name="name"]{
+        width: 480px;
+        margin: 30px 0 0 107.2px;        
+    }
+    
+    
+    input[name="number"]{
+        width: 480px;    
+    }
+
+    
+            /*DESKTOP FOOTER*/
+
+    footer{
+        padding: 0 15px;
+        height: 150px;
+        width: 100%;
+    }
+    
+    .pg-Footer_SoMe{        
+        padding: 15px 0 0 30px;
+        height: 120px;
+    }
+    
+    .pg-Footer_Kontrol{
+        padding: 15px 15px 0 0;
+    }
+    
+    footer h6{
+        font-size: 18px;
+        text-align: left;
+        padding: 0 0 15px 0;
+    }
+    
+    footer img{
+        width: 50px;
+        padding: 0 15px 0 0;
+        margin: 0;
+    }
+    
+    footer p{
+        font-size: 18px;
+    }
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /*DESKTOP NAVIGATION*/
+
+    .pg-Top{
+        display: none;
+    }    
+    
+    .pg-TopDesk{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: block;
+        height: 120px;
+        box-shadow: 0px 5px 8px #9e9a9a;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .pg-TopDesk_Logo{
+        display: block;
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        float: left;
+        height: 120px;
+        background-color: white;
+    }
+    
+    .pg-TopDesk_Logo a img{
+        margin: 0;
+        padding: 15px 0 0 30px;
+        width: 165px;
+    }
+    
+    .pg-TopDesk_Nav{
+        display: block;
+        padding: 45px 0 0 0;
+        margin: 0;
+        width: 50%;
+        float: right;
+        height: 120px;
+        background-color: white;
+    }
+
+    .pg-TopDesk_Menu {
+        width: 50%;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .pg-TopDesk_MenuList{
+        margin: 0;
+        text-align: left;
+        height: 70px;
+        padding: 0;
+        float: left;
+        display: block;
+        width: 75%;
+    }
+    
+    .pg-TopDesk_MenuList li{
+        display: inline-block;  
+        height: 0vw;
+        padding: 0 20px 0 0;
+        text-align: left;
+    }
+    
+    .pg-TopDesk_MenuList li a{
+        font-size: 22px;
+        text-align: left;
+        text-decoration: none;
+        color: #707070;
+    }
+        
+    .pg-TopDesk_Flag{
+        width: 9%;
+        display: inline-block;
+        float: left;
+    }
+    
+    .pg-TopDesk_Flag img{
+        width: 40px;
+        padding: 2px 0 0 0;
+    }
+    
+    .fa-shopping-cart{
+        font-size: 35px;
+        display: inline-block;
+        margin: 0;
+        padding: 0 15px 0 0;
+        z-index: 1;
+        width: 9%;
+        text-align: right;
+        float: left;
+        color: #707070;
+    }
+    
+    .notificationDesk{
+        font-size: 26px;
+        width: 10px;
+        padding: 5px 22px 5px 10px;
+        margin: 0;
+        background-color: #A81B15;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        position: absolute;
+        top: -1vw;
+        right: 2.5vw;
+    }
+
+
+            /*HOME PAGE*/
+
+    /*HERO*/
+
+    .hm-Grid_HeroWlcm {grid-area: wlcm;}
+    .hm-Hero_OC {grid-area: openclose;}
+    .hm-Grid_HeroIntro {grid-area: intro}
+    .hm-Grid_HeroButton {grid-area: button}
+
+    .hm-Hero{
+        background-image: url("../images/hero-desktop.jpg");
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 10% 40% 40% 10%;
+        grid-template-areas: 
+        ". . wlcm ."
+        ". . openclose ."
+        ". . intro ."
+        ". . button .";
+        margin: 0 auto;
+    }
+    
+    .hm-Hero h1{
+        padding: 0;
+        font-size: 65px;
+        margin: 15px 0 0 0;
+    }
+    
+    .hm-Hero_Younes{
+        font-size: 70px;
+    }
+
+    #hm-Hero_Open{
+        font-size: 30px;
+    }
+    
+    #hm-Hero_Closed{
+        font-size: 30px;
+    }
+    
+    .hm-Hero p{
+        padding: 15px 0 0 0;
+        font-size: 20px;
+    }
+    
+    .hm-Hero_ButtonContainer{
+        padding: 15px 0 0 0;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .pg-General_CallAct-button{
+        width: 100%;
+        font-size: 20px;
+        transition: 0.5s;
+        margin: 0 0 15px 0;
+        padding: 8px;
+        border: solid 4px #FFA000;
+        border-radius: 6px;
+    }
+        
+    .pg-General_CallAct-button:hover{
+        background-color: #FFA000;
+        color: white;
+        cursor: pointer;
+    }
+
+
+    /*QUOTE*/
+
+    .hm-Grid_QuoteMark {grid-area: mark;}
+    .hm-Grid_QuoteQttn {grid-area: quote;}
+    .hm-Grid_QuoteSign {grid-area: sign;}
+
+    .hm-Quote{
+        padding: 0;
+        width: 1200px;
+        display: grid;
+        grid-template-columns: 120px 480px 480px 120px;
+        grid-template-areas: 
+        ". mark . ."
+        ". quote quote ."
+        ". . sign .";
+        margin: 0 auto;
+    }
+    
+    .hm-Quote_padding{
+        padding: 0;
+    }
+    
+    .hm-Grid_QuoteMark{
+        font-size: 40px;
+        margin: 30px 0 15px 0;
+    }
+    
+    .hm-Quote p{
+        font-size: 23px;
+    }
+    
+    .hm-Quote_Signature{
+        margin: 15px 0 30px 0;
+    }
+    
+    .hm-Quote img{
+        width: 180px;
+    }
+    
+
+    /*DAILY OFFER*/
+
+    .hm-Grid_DailyOfferDay {grid-area: day;}
+    .hm-Grid_DailyOfferImg {grid-area: img;}
+    .hm-DailyOffer_Name {grid-area: name;}
+    .hm-DailyOffer_Price {grid-area: price;}
+    .hm-DailyOffer_Ing {grid-area: ing;}
+
+    .offer{
+        padding: 0;
+        width: 1200px;
+        grid-template-columns: 120px 480px 480px 120px;
+        grid-template-areas: 
+        ". day day ."
+        ". img img ."
+        ". name price ."
+        ". ing ing .";
+        margin: 0 auto;
+    }
+    
+    .hm-DailyOffer{
+        padding: 0;
+    }
+    
+    .hm-DailyOffer h3{
+        font-size: 65px;
+        padding: 30px 0 0 0;
+    }
+    
+    .hm-DailyOffer h1{
+        font-size: 45px;
+        padding: 15px 0 0 0;
+    }
+    
+    .hm-DailyOffer img {
+        padding: 15px 0 0 0;
+        border-radius: 6px;
+        margin: 0 auto;
+        width: 450px;
+        height: auto;
+        background-color: white;
+    }
+    
+    .hm-DailyOffer_Name{
+        padding: 15px 0 0 0;
+        width: 100%;
+        font-size: 18px;
+        height: 60px;
+    }
+    
+    .hm-DailyOffer_Name h4{
+        font-size: 40px;
+    }
+    
+    .hm-DailyOffer_Price{
+        padding: 15px 0 0 0;
+        width: 100%;
+    }
+    
+    .hm-DailyOffer_Price p{
+        font-size: 40px;
+    }
+    
+    .hm-DailyOffer_Ing{
+        padding: 15px 0 0 0;
+        height: 80px;
+    }
+    
+    .hm-DailyOffer_Ing p{
+        font-size: 23px;
+    }
+    
+    .hm-DailyOffer_Button{
+        padding: 15px 0 0 0;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .hm-DailyOffer_Button button{
+        padding: 1vw;
+        font-size: 1.8vw
+    }
+    
+    #hm-DailyOfferButton-Desk{
+        width: 25%;
+        font-weight: normal;
+        border: solid 0.3vw #FFA000;
+        margin: 15px 15px 30px 0;
+        border-radius: 6px;
+    }
+
+
+    /*REVIEWS*/
+
+    .hm-Grid_ReviewsTitle {grid-area: title;}
+    .hm-Quote_Mark {grid-area: mark;}
+    .hm-Reviews_ArrowLeft {grid-area: lefta;}
+    .hm-Grid_ReviewsText {grid-area: txt;}
+    .hm-Reviews_ArrowRight {grid-area: righta;}
+
+    .hm-Reviews{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 15% 7% 56% 7% 15%;
+        grid-template-areas: 
+        ". title title title ."
+        ". mark . . ."
+        ". lefta txt righta .";
+        text-align: center;
+    }
+    
+    .hm-Reviews h3{
+        padding: 30px 0 0 0;
+        font-size: 65px;
+        text-align: center;
+    }
+    
+    #hm-Reviews_Mark{
+        padding: 0;
+        margin: 15px 0 0 0;
+        font-size: 40px;
+    }
+    
+    .hm-Reviews_ArrowLeft{
+        margin: 0 0 30px 0;
+        font-size: 40px;
+        padding: 30px 0 0 0;
+    }
+    
+    .hm-Reviews_ArrowRight{
+        text-align: right;
+        width: 100%;
+        margin: 0 0 30px 0;
+        font-size: 40px;
+        padding: 30px 0 0 0;
+    }
+    
+    .hm-Reviews p{
+        font-size: 23px;
+        width: 100%;
+        padding: 15px 0 65px 0;
+        margin: 0;
+        text-align: left;
+        min-height: 200px;
+        max-height: 400px;
+    }
+
+
+            /*MENU PAGE*/    
+        
+    .mn-Title {grid-area: title;}
+    .food {grid-area: food;}
+    .mn-Grid_Pizza {grid-area: pizza;}
+    .mn-Grid_Grill {grid-area: grill;}
+    .mn-Grid_Burger {grid-area: burger;}
+    .mn-Grid_Nuggets {grid-area: nuggets;}
+    .mn-Grid_Pasta {grid-area: pasta;}
+    .mn-Grid_Snacks {grid-area: snacks;}
+    .mn-Grid_Diverse {grid-area: diverse;}
+    .mn-Grid_Pita {grid-area: pita;}
+    .mn-Grid_Sandwich {grid-area: sandwich;}
+    .mn-Grid_Salad {grid-area: salad;}
+    .mn-Grid_Menuer {grid-area: menuer;}
+    .mn-Grid_Drink {grid-area: drink;}
+    .mn-Grid_Exstra {grid-area: extra;}
+
+    .mn-ContentContainer{
+        margin: 0 auto 65px auto;
+        background-color: white;
+        padding: 0;
+        width: 1200px;
+        display: grid;
+        grid-gap: 50px 16px;
+        grid-template-columns: 104px 228px 228px 228px 228px 104px;
+        grid-template-areas: 
+            ". food food food food ."
+            ". title title title title ."
+            ". pizza grill burger nuggets ." 
+            ". pasta snacks diverse pita ." 
+            ". sandwich salad menuer drink ."
+            ". extra . . . .";
+    }
+
+    .mn-Title{
+        margin: -50px 0 0 0;
+        font-weight: normal;
+        padding: 15px 0 0 0;
+        font-size: 65px;
+    }
+    
+    .mn-SubTitle{
+        
+    padding: 15px 0 0 0;
+    margin: 0 0 15px 0;
+    font-size: 45px;
+    }
+
+    .mn-Content_Box{
+        height: auto;
+        margin: 0;
+        background-color: white;
+    }
+    
+    .mn-Content_Box img{
+        width: 100%;
+        border-radius: 5%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    #mn-Content_SeeMoreBtn{
+         font-size: 23px;
+         margin: 15px 0 0 51.5px;
+         width: 125px;
+         padding: 1px;
+         border: solid 0.18vw #FFA000;
+         font-weight: normal;
+    }
+    
+    #foodLeftArrowBack{
+        margin: 0;
+        padding: 15px 0 0 0;
+        font-size: 40px;
+        width: 100%;
+    }
+    
+    .pizzaMenu {
+        text-align: center;
+    }
+    
+    .PizzaBtn{        
+        padding: 4px;
+        font-size: 20px;
+        width: 113px;
+        margin: 15px auto 0 auto;
+        border: solid 0.22vw #A81B15;
+    }
+    
+    .rightBtn{        
+        float: none;
+    }
+    
+    .productInfo{
+        margin: 4vw 0 0 0;
+        height: 2vw;
+        text-align: left;
+    }
+    
+    .productInfo h2{font-size: 23px;color: #a81b15;}
+    
+    .productInfo i{font-size: 35px;width: 118.08px;display: inline-block;text-align: right;}
+    
+    #productNormalPrice{
+        font-size: 23px;
+        float: left;
+        width: 160px;
+    }
+    
+    .productInfo p{        
+        width: 629.76px;
+        font-size: 20px;
+        margin: 0;
+        float: left;
+    }
+    
+    .orderBox{
+        width: 500px;
+        margin: 55px 0;
+        padding: 3px;
+        font-size: 18px;
+        text-align: left;
+    }
+    
+    .orderBox i{        
+        padding: 5px 5px 0 0;
+    }
+    
+    .sizeChoose, .doughChoose, .extraBtn, .extraBox{        
+        margin: 15px 0 0 0;
+    }
+    
+    .normalsizeCheck{        
+        width: 50px;
+    }
+    
+    .normalDoughCheck, .wholeDoughCheck, .extraCheck{
+        width: 50px;
+    }
+    
+    .normalsize{        
+        width: 294px;
+    }
+    
+    .normalsizePrice{
+        
+    width: 131px;
+    }
+    
+    .extraBtn{        
+        font-size: 18px;
+        width: 200px;
+        margin: 15px 0 0 25px;
+    }
+    
+    .orderCommentTitle{        
+        width: 400px;
+        margin: 15px 0 0 25px;
+        text-align: left;
+    }
+    
+    .orderComment{        
+        width: 440px;
+        margin: 15px 25px 0 25px;
+        text-align: left;
+    }
+    
+    .addToCartBtn{
+        margin: 15px 123px 15px 25px;
+        width: 200px;
+        font-size: 18px;
+        padding: 5px;
+        font-weight: normal;
+        border: solid 2.5px #FFA000;
+    }
+    
+    .productPrice{
+        margin: 15px 0 0 0;
+    }
+
+
+            /*ABOUT US*/
+
+    .au-Grid_Title {grid-area: title;}
+    .au-Grid_SubTitle1 {grid-area: subtitle1;}
+    .au-Grid_Text1 {grid-area: text1;}
+    .au-Grid_Img1 {grid-area: img1;}
+    .au-Grid_Img2 {grid-area: img2;}
+    .au-Grid_SubTitle2 {grid-area: subtitle2;}
+    .au-Grid_Text2 {grid-area: text2;}
+    .au-Grid_Img3 {grid-area: img3;}
+    .au-Grid_Img4 {grid-area: img4;}
+
+    .au-ContentContainer{
+        padding: 0 0 65px 0;
+        width: 1200px;
+        display: grid;
+        grid-template-columns: 120px 480px 480px 120px;
+        grid-template-areas: 
+        ". title title ." ". subtitle1 subtitle1 ." ". text1 text1 ." ". img1 img2 ." ". subtitle2 subtitle2 ." ". text2 text2 ." ". img3 img4 .";
+        margin: 0 auto;
+    }
+    
+    .au-Grid_Title{
+        margin: 0;
+        font-weight: normal;
+        padding: 15px 0 0 0;
+        font-size: 65px;
+        text-align: center;
+        color: #707070;
+    }
+    
+    .au-Grid_SubTitle1, .au-Grid_SubTitle2{
+        margin: 0;
+        font-weight: normal;
+        padding: 15px 0 0 0;
+        font-size: 45px;
+        text-align: center;
+        color: #A81B15;
+    }
+    
+    .au-Grid_SubTitle2{
+        margin: 15px 0 0 0;
+    }
+    
+    .au-Grid_Text1 , .au-Grid_Text2{
+        font-size: 18px;
+        color: #707070;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .au-Grid_Img1, .au-Grid_Img2, .au-Grid_Img3, .au-Grid_Img4{
+        width: 420px;
+        margin: 15px 0 0 0;
+    }
+    
+    .au-Image-floatright{
+    margin: 15px 0 0 60px;
+    }
+        
+
+            /*CONTACT PAGE*/
+
+    .ct-Grid_Title {grid-area: title;}
+    .ct-Grid_OpenHours {grid-area: openhours;}
+    .ct-Grid_Address {grid-area: address;}
+    .ct-Grid_Map {grid-area: map;}
+    .ct-Grid_Other {grid-area: other;}
+
+    .ct-ContentContainer{
+        padding: 0 0 65px 0;
+        width: 1200px;
+        display: grid;
+        grid-template-columns: 120px 480px 480px 120px;
+        grid-template-areas: 
+        ". title title ."
+        ". map openhours ."
+        ". address other .";
+        margin: 0 auto;
+    }
+    
+    .ct-ContentContainer h3{
+        margin: 0;
+        font-weight: normal;
+        padding: 15px 0 0 0;
+        font-size: 65px;
+    }
+    
+    .ct-Spacing{
+        margin: 0;
+    }
+       
+    .ct-Page_Header{
+        font-size: 45px;
+        padding: 30px 0 0 0;
+        margin: 0;
+    }
+    
+    .ct-Hours_Day{
+        width: 260px;
+        padding: 15px 0;
+    }
+    
+    .ct-Hours_Day p{
+        font-size: 1.8vw;        
+        line-height: 120%;
+    }
+    
+    .ct-Hours_Time{
+        width: 210px;
+        padding: 15px 0;
+    }
+    
+    .ct-Hours_Time p{
+        font-size: 1.8vw;        
+        line-height: 120%;
+    }
+    
+    .ct-ContentContainer p{
+        font-size: 23px;        
+    }
+    
+    .ct-Grid_Address{
+        padding: 0 0 30px 0;
+    }
+    
+    .ct-Grid_Other{
+        padding: 0 0 30px 0;
+    }
+    
+    #map{
+        width: 440px;
+        margin: 30px 0 0 0;
+        height: 320px;
+        padding: 0;
+    }
+
+
+            /*DAILY OFFER*/
+
+    .fa-arrow-left{
+        font-size: 40px;        
+        transition: 2s;
+        margin: 0 0 0 51px;
+        display: block;
+        width: 1200px;
+        padding: 15px 0 0 0;
+    }
+
+    .fa-arrow-left:hover{
+        color: #A81B15;
+    }
+
+    .df-Grid_Title {grid-area: title;}
+    .df-Grid_Monday {grid-area: monday;}
+    .df-Grid_Tuesday {grid-area: tuesday;}
+    .df-Grid_Wednesday {grid-area: wednesday;}
+    .df-Grid_Thursday {grid-area: thursday;}
+    .df-Grid_Friday {grid-area: friday;}
+    .df-Grid_Saturday {grid-area: saturday;}
+    .df-Grid_Sunday {grid-area: sunday;}
+    .df-Grid_Paragraph {grid-area: message;}
+
+    .df-DailyOffer{
+        background-color: white;
+        padding: 0 0 65px 0;
+        width: 1200px;
+        display: grid;
+        grid-gap: 60px 14.4px;
+        grid-template-columns: 156px 204px 204px 204px 204px 156px;
+        grid-template-areas: 
+        ". title title title title ." 
+        ". monday tuesday wednesday thursday ." 
+        ". friday saturday sunday message .";
+        margin: 0 auto;
+    }
+    
+    .df-Days-Padding{
+        padding: 0;
+        width: 100%;
+    }
+    
+    .df-Days-Padding h1{
+        font-size: 20px;
+        width: 100%;
+        padding: 0;
+        font-weight: bold;
+    }
+    
+    .df-DailyOffer img{
+        padding: 0;
+    }
+    
+
+    /*-MONDAY*/
+
+    .df-Grid_MoDay {grid-area: day;}
+    .df-Grid_MoImg {grid-area: img;}
+    .df-Grid_MoName {grid-area: name;}
+    .df-Grid_MoPrice {grid-area: price;}
+    .df-Grid_MoIng {grid-area: ingr;}
+
+    .df-Grid_Monday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_MoName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_MoPrice p{
+        font-size: 18px;
+    }
+    
+    #df-Grid_MoPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_MoIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-TUESDAY*/
+    .df-Grid_TuDay {grid-area: day;}
+    .df-Grid_TuImg {grid-area: img;}
+    .df-Grid_TuName {grid-area: name;}
+    .df-Grid_TuPrice {grid-area: price;}
+    .df-Grid_TuIng {grid-area: ingr;}
+
+    .df-Grid_Tuesday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_TuName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_TuPrice p{
+        font-size: 18px;
+    }
+    
+    .df-Grid_TuIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-WEDNESDAY*/
+    .df-Grid_WeDay {grid-area: day;}
+    .df-Grid_WeImg {grid-area: img;}
+    .df-Grid_WeName {grid-area: name;}
+    .df-Grid_WePrice {grid-area: price;}
+    .df-Grid_WeIng {grid-area: ingr;}
+
+    .df-Grid_Wednesday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_WeName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_WePrice p{
+        font-size: 18px;
+    }
+    
+    #df-Grid_WePrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_WeIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-THURSDAY*/
+    .df-Grid_ThDay {grid-area: day;}
+    .df-Grid_ThImg {grid-area: img;}
+    .df-Grid_ThName {grid-area: name;}
+    .df-Grid_ThPrice {grid-area: price;}
+    .df-Grid_ThIng {grid-area: ingr;}
+
+    .df-Grid_Thursday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_ThName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_ThPrice p{
+        font-size: 18px;
+    }
+    
+    #df-Grid_ThPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_ThIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-FRIDAY*/
+    .df-Grid_FrDay {grid-area: day;}
+    .df-Grid_FrImg {grid-area: img;}
+    .df-Grid_FrName {grid-area: name;}
+    .df-Grid_FrPrice {grid-area: price;}
+    .df-Grid_FrIng {grid-area: ingr;}
+
+    .df-Grid_Friday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_FrName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_FrPrice p{
+        font-size: 18px;
+    }
+    
+    #df-Grid_FrPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_FrIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-SATURDAY*/
+    .df-Grid_SaDay {grid-area: day;}
+    .df-Grid_SaImg {grid-area: img;}
+    .df-Grid_SaName {grid-area: name;}
+    .df-Grid_SaPrice {grid-area: price;}
+    .df-Grid_SaIng {grid-area: ingr;}
+
+    .df-Grid_Saturday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_SaName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_SaPrice p{
+        font-size: 18px;
+    }
+    
+    #df-Grid_SaPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_SaIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-SUNDAY*/
+    .df-Grid_SuDay {grid-area: day;}
+    .df-Grid_SuImg {grid-area: img;}
+    .df-Grid_SuName {grid-area: name;}
+    .df-Grid_SuPrice {grid-area: price;}
+    .df-Grid_SuIng {grid-area: ingr;}
+
+    .df-Grid_Sunday{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0% 70% 30% 0%;
+        grid-template-areas: 
+        ". day day ." 
+        ". img img ." 
+        ". name price ." 
+        ". ingr ingr .";
+    }
+    
+    .df-Grid_SuName h4{
+        font-size: 18px;
+    }
+    
+    .df-Grid_SuPrice p{
+        font-size: 18px;
+    }
+    
+    #df-Grid_SuPrice-SmallFont{
+        font-size: 16px; 
+        width: 40%;
+        text-align: left;
+    }
+    
+    .df-Grid_SuIng  p{
+        font-size: 16px;
+    }
+
+
+    /*-MESSAGE*/
+    .df-Grid_ParagraphText {grid-area: paragraph;}
+
+    .df-Grid_Paragraph{
+        padding: 0;
+        width: 100%;
+        display: grid;
+        background-color: #ffffff;
+        color: #af2d28;
+        grid-template-columns: 0% 100% 0%;
+        grid-template-areas: 
+        ". paragraph ." 
+    }
+        
+    .df-Grid_ParagraphText  p{
+        font-size: 16px;
+        margin: 0.8vw 0 0 0;
+        background-color: #ffffff;
+        color: #af2d28;
+        padding: 1vw;
+    }
+
+
+            /*CART PAGE*/
+
+    .crt-Grid_Title {grid-area: title;}
+    .cart {grid-area: cart;font-size: 23px;}
+    .crt-Bill_Discount {grid-area: discount;}
+    .crt-Grid_Underline {grid-area: lining;}
+    .crt-Price {grid-area: price;}
+    .crt-Buttons {grid-area: buttons;}
+
+    .crt-ContentContainer{
+        padding: 0;
+        width: 1200px;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: 120px 480px 480px 120px;
+        grid-template-areas: 
+        ". title title ." 
+        ". cart cart ." 
+        ". . discount ." 
+        ". lining lining ."
+        ". price price ."
+        ". buttons buttons .";
+    }
+    
+    .crt-Bill_Product{
+        height: 315px
+    }
+
+    .crt-ContentContainer h3{
+        margin: 0;
+        font-weight: normal;
+        padding: 15px 0 0 0;
+        font-size: 68px;
+        text-align: center;
+        color: #707070;
+        height: 120px;
+        display: block;
+    }
+    
+    #Bill_Productname, #Bill_Productprice{        
+        font-size: 22px;
+        padding: 0;
+        margin: 15px 0 0 0;
+    }
+    
+    .cart p, .crt-Bill_Discount{
+        font-size: 18px;
+        padding: 15px 0 0 0;
+    }
+            
+    .crt-Price{
+            
+        width: 100%;
+        display: block;
+        float: none;
+    }
+
+    .crt-Bill_Total{
+        width: 50%;
+        margin: 0 0 15px 0;
+        font-size: 23px;
+        font-weight: bold;
+        float: left;
+    }
+
+    .crt-Bill_TotalPrice{
+        width: 49%;
+        font-size: 23px;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0 0 15px 0;;
+        text-align: right;
+        float: none;
+    }
+
+    .crt-Buttons{
+        display: block;
+        width: 100%;
+        margin: 15px 0 65px 0;
+    }
+
+    #crt-Bill_ClearBtn{
+        border-radius: 6px;
+        box-shadow: none;
+        font-size: 23px;
+        display: block;
+        width: 400px;
+        float: left;
+        margin: 0;
+        padding: 15px;
+    }
+
+    #crt-Bill_PayBtn{
+        color: white;
+        background-color: #A81B15;
+        border: solid 0.4vw #A81B15;
+        border-radius: 6px;
+        font-size: 23px;
+        display: inline-block;
+        width: 400px;
+        float: right;
+        margin: 0;
+        padding: 15px;
+    }
+    
+    #crt-Bill_PayBtn:hover{
+        box-shadow: none;
+    }
+    
+    .crt-Buttons button{
+        width: 280px;
+        padding: 10px;
+    }
+    
+    input{
+        width: 270px;
+        margin: 15px 0 0 200px;
+    }
+    
+    input[name="name"], input[name="number"]{
+        width: 560px;
+        margin: 30px 0 0 200px;
+    }
+    
+    .crt-Buttons p{
+        font-size: 22px;
+    }
+
+    
+            /*DESKTOP FOOTER*/
+
+    footer{
+        padding: 0 15px;
+        height: 150px;
+        width: 100%;
+    }
+    
+    .pg-Footer_SoMe{        
+        padding: 15px 0 0 30px;
+        height: 120px;
+    }
+    
+    .pg-Footer_Kontrol{
+        padding: 15px 15px 0 0;
+    }
+    
+    footer h6{
+        font-size: 18px;
+        text-align: left;
+        padding: 0 0 15px 0;
+        margin: 0;
+    }
+    
+    footer img{
+        width: 50px;
+        padding: 0 15px 0 0;
+        margin: 0;
+    }
+
+    footer p{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gå vores menu igennem og opdag det lækreste mad i Aalborg.">
+    <title>Younes Grill og Pizza | Ålborg | Menu</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Handlee|Kaushan+Script|Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <div class="pg-Top">
+        <div class="pg-Top_Logo">
+            <a href="index.html">
+                <img src="assets/images/logo.PNG" alt="Younes Grill og Pizza Logo">
+            </a>
+        </div>
+
+        <nav> 
+            <i class="fas fa-bars pg-Top_Icon" onclick="openMenu()" class="pg-Top_Icon"></i> 
+            <a href="cart.html"><i class="fas fa-shopping-cart pg-Top_Icon"><span class="notification" style="display:none"></span></i></a>
+            
+            <div class="pg-Top_Menu pg-General-OpenSans">
+                
+                <ul id="pg-Top_MenuList">
+                    <li id="pg-Top_MenuListCart-fixing"> <i class="fas fa-times pg-Top_Icon" id="pg-Top_CloseIcon" style="display: none" onclick="closeMenu()"></i></li>
+                    <li> <a href="index.html" class="menuLink">Forside</a></li>
+                    <li> <a href="menu.html" class="menuLink">Menu</a></li>
+                    <li> <a href="aboutus.html" class="menuLink">Om os</a></li>
+                    <li> <a href="contact.html" class="menuLink">Kontakt</a></li>
+                    <li> <a href="en/menu.html"><img src="assets/images/gb.svg" alt="Great Britain Flag Storbritanien Flag"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="pg-TopDesk">
+        <div class="pg-TopDesk_Logo">
+            <a href="index.html">
+                <img src="assets/images/logo.PNG" alt="Younes Grill og Pizza Logo">
+            </a>
+        </div>
+
+        <nav class="pg-TopDesk_Nav">                       
+            <div class="pg-TopDesk_Menu pg-General-OpenSans">                
+                <ul class="pg-TopDesk_MenuList">                    
+                    <li> <a href="index.html" class="menuLinkDesk">Forside</a></li>
+                    <li> <a href="menu.html" class="menuLinkDesk" id="pg-General-RedColorID">Menu</a></li>
+                    <li> <a href="aboutus.html" class="menuLinkDesk">Om os</a></li>
+                    <li> <a href="contact.html" class="menuLinkDesk">Kontakt</a></li>               
+                </ul>  
+
+                <a class="pg-TopDesk_Flag" href="en/menu.html"><img src="assets/images/gb.svg" alt="Great Britain Flag Storbritanien Flag"></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart pg-TopDesk_Icon"><span class="notificationDesk"></span></i></a>
+            </div>           
+        </nav>
+    </div>
+
+    <div class="successMsg">
+        <p>Item added successfully!</p>
+    </div>
+
+    <div class="errorMsg">
+        <p>Error: Select the size and the dough of pizza</p>
+    </div>
+
+    <div class="mn-ContentContainer pg-General-OpenSans">
+        <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+
+        <div class="mn-Content_Box mn-Grid_Pizza">
+            <div class="mn-Content_BoxImg"><img src="assets/images/carpaccio.jpg" alt="Italiensk pizza med tomater, rucola og skinke"></div>            
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('pizza')">Pizza</button>
+        </div>
+
+        <div class="mn-Content_Box mn-Grid_Grill">
+            <div class="mn-Content_BoxImg"><img src="assets/images/grill.jpg" alt="Grillet kylling med agurg, squash og peppe"></div>            
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('grillretter');foodType('grillretter', 'grillretter', this)">Grill</button>
+        </div>
+
+        <div class="mn-Content_Box mn-Grid_Burger">
+            <div class="mn-Content_BoxImg"><img src="assets/images/burger.jpg" alt="Cheeseburger med sovs, grøntsager og pomme frites."></div>            
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('burger');foodType('burger', 'burger', this)">Burger</button>
+        </div>
+
+        <div class="mn-Content_Box mn-Grid_Nuggets">
+            <div class="mn-Content_BoxImg"><img src="assets/images/nuggets.jpg" alt="Kylling nuggets med salat, løg og sodavand"></div>                      
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('nuggets');foodType('nuggets', 'nuggets', this)">Nuggets</button>
+        </div>
+
+        <div class="mn-Content_Box mn-Grid_Pasta">
+            <div class="mn-Content_BoxImg"><img src="assets/images/pasta.jpg" alt="Spaghetti med kødsauce, skinke, pølser og svampe"></div>              
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('pasta');foodType('pasta', 'pasta', this)">Pasta</button>
+        </div>
+
+        <div class="mn-Content_Box mn-Grid_Snacks">
+            <div class="mn-Content_BoxImg"><img src="assets/images/snack.jpg" alt="Snackkurv med cheese sticks, chili poppers og løgringe"></div>                              
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('snacks');foodType('snacks', 'snacks', this)">Snacks</button>
+        </div>
+        
+        <div class="mn-Content_Box mn-Grid_Diverse">
+            <div class="mn-Content_BoxImg"><img src="assets/images/diverse.jpg" alt="Crispy pomme frites "></div>            
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('diverse');foodType('diverse', 'diverse', this)">Diverse</button>
+        </div>
+
+        <div class="mn-Content_Box mn-Grid_Pita">
+            <div class="mn-Content_BoxImg"><img src="assets/images/durum-mobile.jpg" alt="Durum med kebab og grøntsager"></div>            
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('pita');foodType('pita', 'pita', this)">Pita</button>
+        </div>
+
+        <div class="mn-Content_Box mn-Grid_Sandwich">
+            <div class="mn-Content_BoxImg"><img src="assets/images/sandwich.jpg" alt="Sund sandwich med tomato, slat og mozarella"></div>           
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('sandwich');foodType('sandwich', 'sandwich', this)">Sandwich</button>
+        </div>
+
+        <div class="mn-Content_Box mn-Grid_Salad">
+            <div class="mn-Content_BoxImg"><img src="assets/images/salad-desktop.jpg" alt="Healthy meal med salat, tun, tomater og fetaost."></div>            
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('salatretter');foodType('salatretter', 'salatretter', this)">Salatretter</button>
+        </div>
+
+        <div class="mn-Content_Box mn-Grid_Menuer">
+            <div class="mn-Content_BoxImg"><img src="assets/images/menu.jpg" alt="American style pizza med forfriskende sodavand"></div>            
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('menuer');foodType('menuer', 'menuer', this)">Menuer</button>
+         </div>
+
+        <div class="mn-Content_Box mn-Grid_Drink">
+            <div class="mn-Content_BoxImg"><img src="assets/images/drinks.jpg" alt="Forfriskende sodavandfilled med is."></div>            
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('drikkevarer');foodType('drikkevarer', 'drikkevarer', this)">Drikkevarer</button>
+        </div>
+
+        <div class="mn-Content_Box mn-Grid_Exstra">
+            <div class="mn-Content_BoxImg"><img src="assets/images/extras.jpg" alt="Ketchup mayonnaise sennep"></div>            
+            <button type="button" id="mn-Content_SeeMoreBtn" class="foodSelector pg-General_CallAct-button pg-General_CallAct-button_rightFloat" onclick="display('ekstra');foodType('ekstra', 'ekstra', this)">Ekstra</button>
+        </div>
+
+        
+        
+        
+        <div class="pizzaMenu food" style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Pizza</h3>
+            
+            <button class="PizzaBtn" type="button" onclick="foodType('pizza','italian', this)">Italian</button>
+            <button class="PizzaBtn rightBtn" type="button" onclick="foodType('pizza','american', this)">American</button>
+            <button class="PizzaBtn" type="button" onclick="foodType('pizza','special', this)">Special</button>
+            <button class="PizzaBtn rightBtn" type="button" onclick="foodType('pizza','indbagte', this)">Indbagte</button>
+            <button class="PizzaBtn" type="button" onclick="foodType('pizza','fedtfattig', this)">Fedtfattig</button>
+            <button class="PizzaBtn rightBtn" type="button" onclick="foodType('pizza','borne', this)">Borne</button>
+
+            <div class="products">
+            </div>
+        </div>
+
+        <div class="grillretterMenu food" style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Grill</h3>
+        </div>
+
+        <div class="burgerMenu food " style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Grill</h3>
+        </div>
+
+        <div class="nuggetsMenu food " style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Nuggets</h3>
+        </div>
+
+        <div class="pastaMenu food " style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Pasta</h3>
+        </div>
+
+        <div class="snacksMenu food " style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Snacks</h3>
+        </div>
+
+        <div class="diverseMenu food " style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Diverse</h3>
+        </div>
+
+        <div class="pitaMenu food " style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Pita</h3>
+        </div>
+
+        <div class="sandwichMenu food " style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Sandwich</h3>
+        </div>
+
+        <div class="salatretterMenu food " style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Salatretter</h3>
+        </div>
+
+        <div class="menuerMenu food " style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Menuer</h3>
+        </div>
+
+        <div class="borneMenu food " style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Borne</h3>
+        </div>
+
+        <div class="drikkevarerMenu food " style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Drikkervarer</h3>
+        </div>
+
+        <div class="ekstraMenu food " style="display: none;">
+            <i class="fas fa-arrow-left" id="foodLeftArrowBack" onclick="allFood()"></i><br>
+            <h3 class="pg-General-Kaushan mn-Title">Menu</h3>
+            <h3 class="pg-General-Kaushan mn-Title mn-SubTitle" id="pg-General-RedColorID">Grill</h3>
+        </div>
+    </div>   
+     
+    <footer class="pg-General-OpenSans">
+        <div class="pg-Footer_SoMe">
+            <h6>Følg os</h6>
+            <a href="https://www.facebook.com/YounesGrillPizza" target="_blank"><img src="assets/images/facebook.svg" alt="Facebook logo"></a>
+        </div>
+        
+        <div class="pg-Footer_Kontrol">
+            <h6>Kontrol rapport</h6>
+            <a href="https://www.findsmiley.dk/23488" target="_blank"><img src="assets/images/smile.svg" alt="Kontrol Rapport icon"></a>
+       </div>    
+
+        <p id="copyright">©Younes Grill & Pizza - 2019</p>
+    </footer>
+
+<script src="assets/script/products.js"></script>
+<script src="assets/script/menu.js"></script>
+<script src="assets/script/script.js"></script> 
+</body>
+
+</html>
